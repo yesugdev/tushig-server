@@ -1,0 +1,10 @@
+options:
+	prefix: &a&lSTORE &8&l|
+	SoundD: BLOCK_NOTE_BLOCK_PLING
+	SoundD-Volume: 1
+	SoundD-Pitch: 2
+
+command /store:
+	trigger:
+		send "{@prefix} &7Visit Our Store! <tooltip:&6Click to open the &aStore><link:https://Store.YourNetwork.com>&ehere." to player
+		play sound "{@SoundD}" with volume {@SoundD-Volume} and pitch {@SoundD-Pitch}

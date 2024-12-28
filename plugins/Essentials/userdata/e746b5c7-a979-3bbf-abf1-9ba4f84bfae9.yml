@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 122.201.19.61
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733373455832
+  login: 1733372968660
+money: '355.6'
+last-account-name: JavhaaJack
+lastlocation:
+  world: bfcc9491-a06a-42f1-ba58-7dfccdadadbf
+  world-name: spawn
+  x: -23.506268170357373
+  y: 99.0
+  z: -39.960841867990645
+  yaw: 143.81768798828125
+  pitch: 4.790853023529053
+logoutlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: -476.2942505929988
+  y: 73.0
+  z: 675.1493330533183
+  yaw: -85.93798828125
+  pitch: 12.474981307983398

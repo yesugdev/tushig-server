@@ -1,0 +1,11 @@
+options:
+	prefix: &6&lTUTORIAL &8&l|
+	SoundD: BLOCK_NOTE_BLOCK_PLING
+	SoundD-Volume: 1
+	SoundD-Pitch: 2
+
+command /tutorial:
+	aliases: /server, /community, /dc
+	trigger:
+		send "{@prefix} &7Want a claiming tutorial? <tooltip:&6Click to open the &cYou&fTube><link:https://youtu.be/VgC6r33NiLA>&ehere." to player
+		play sound "{@SoundD}" with volume {@SoundD-Volume} and pitch {@SoundD-Pitch}

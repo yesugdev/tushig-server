@@ -1,0 +1,29 @@
+location: spawn:0.530:103.000:-3.766
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 90.0
+origin: UP
+down-origin: false
+pages:
+- lines:
+  - content: '&f&l7-Р АНГИЙН НАЙЗУУД &9&lSERVER ТАВТАЙ МОРИЛ'
+    height: 0.8
+  - content: '&fМанай сервер дээр тоглож эхлэхийн тулд'
+    height: 0.3
+  - content: '&f&c/warp&f коммандыг ашиглан &cWild&f ертөнц рүү очно уу.'
+    height: 0.3
+  - content: '&fТанд тусламж хэрэгтэй байна уу? &c/help &f-ыг шалгана уу.'
+    height: 0.3
+  - content: '&c&ndiscord:BITUP'
+    height: 0.3
+  - content: '&fМөнгөө олоод! &c/shop &f-оор худалдаж аваарай.'
+    height: 0.3
+  - content: '&fБараагаа зараарай: &c/sellall hand'
+    height: 0.3
+  - content: '&fАжил олго! &c/jobs join &f-ыг ашиглан ажлаа сонгоорой.'
+    height: 0.3
+  actions: {}
+always-face-player: true
+

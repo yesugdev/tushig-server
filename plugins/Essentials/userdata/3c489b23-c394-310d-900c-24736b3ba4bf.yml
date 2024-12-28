@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 59.153.115.226
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1734066801871
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734066910790
+  login: 1734066772975
+money: '0'
+last-account-name: muusuganiius
+lastlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: -40.5
+  y: 70.0
+  z: -282.5
+  yaw: -142.68283081054688
+  pitch: 90.0
+logoutlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: 458.30000001192093
+  y: 67.0
+  z: 532.6999999880791
+  yaw: -136.23281860351562
+  pitch: 18.740802764892578

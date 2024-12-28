@@ -1,0 +1,45 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1676258485673
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1676274526487
+  login: 1676273444385
+  kits:
+    starter: 1674320568581
+    amethyst: 1675846516807
+    a: 1676257576097
+money: '398493.7900000000000010'
+last-account-name: ItzFabb__
+lastlocation:
+  world: 334d95e1-4659-4697-ad18-86e3fe0f51c5
+  world-name: SPAWN
+  x: 38.04264276150377
+  y: 219.0
+  z: -128.62265039037584
+  yaw: -92.43115234375
+  pitch: -7.025093078613281
+logoutlocation:
+  world: 334d95e1-4659-4697-ad18-86e3fe0f51c5
+  world-name: SPAWN
+  x: 103.69999998807907
+  y: 214.0
+  z: -129.38421002130983
+  yaw: -75.61846923828125
+  pitch: 59.3847541809082
+powertools:
+  firework_rocket:
+  - tps

@@ -1,0 +1,571 @@
+quests:
+  1:
+    name: "#f07818Time to Upgrade"
+    menu_item: NETHERITE_PICKAXE
+    description:
+      - "&8Delve into the depths and mine"
+      - "&83 ancient debris"
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Mine #f078183 #75C2F6ancient debris."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181000 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6points"
+      - ""
+    quest_type: BREAK
+    required_item: ANCIENT_DEBRIS
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  2:
+    name: "#f07818The Dark Knights"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Engage in battle and defeat 5 wither skeletons,"
+      - "&8displaying your prowess as a warrior."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078185 #75C2F6wither skeletons."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181250 #75C2F6XPs"
+      - "&e▪ #f078185000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: WITHER_SKELETON
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1250 %player_name% -s"
+        - "eco give %player_name% 5000"
+        - "playerpoints:p give %player_name% 10"
+  3:
+    name: "#f07818The Screams and Horror"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Confront and defeat 5 endermen,"
+      - "&8facing the eerie creatures with bravery."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078185 #75C2F6endermans."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f07818500 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: ENDERMAN
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 500 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  4:
+    name: "#f07818Aquaman"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Dive into the depths and eliminate"
+      - "&83 elder guardians, showcasing your"
+      - "&8underwater combat abilities"
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078183 #75C2F6elder guardians."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181500 #75C2F6XPs"
+      - "&e▪ #f078185000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: ELDER_GUARDIAN
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1500 %player_name% -s"
+        - "eco give %player_name% 5000"
+        - "playerpoints:p give %player_name% 10"
+  5:
+    name: "#f07818The Destroyer"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Take on the formidable wither and emerge victorious,"
+      - "&8proving your strength and courage."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078181 #75C2F6Wither."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181000 #75C2F6XPs to EVERYONE."
+      - "&e▪ #f078185000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: WITHER
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "eco give %player_name% 1000"
+        - "xp add @a 1000"
+        - "title @a title \"%player% Has Slain The Wither!\""
+        - "playerpoints:p give %player_name% 10"
+  6:
+    name: "#f07818Squidward"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Challenge and defeat an evoker,"
+      - "&8demonstrating your skill in combat"
+      - "&8against mystical adversaries."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078181 #75C2F6evoker."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181000 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: EVOKER
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  7:
+    name: "#f07818Hunting the Rhino"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Engage in a fierce battle and defeat a ravager,"
+      - "&8showing your ability to overcome powerful foes"
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078181 #75C2F6ravager."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181500 #75C2F6XPs"
+      - "&e▪ #f078185000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: RAVAGER
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1500 %player_name% -s"
+        - "eco give %player_name% 5000"
+        - "playerpoints:p give %player_name% 10"
+  8:
+    name: "#f07818Too Cold"
+    menu_item: BLUE_ICE
+    description:
+      - "&8Master the art of crafting by creating"
+      - "&8a piece of blue ice, displaying"
+      - "&8your resourcefulness and knowledge."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Craft #f078181 #75C2F6Blue Ice."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181500 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: CRAFT
+    required_item: BLUE_ICE
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1500 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  9:
+    name: "#f07818Pigs Got Bitten"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Eliminate 15 zombified piglins,"
+      - "&8protecting yourself and asserting your"
+      - "&8dominance in the Nether."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f0781815 #75C2F6zombified piglins."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181500 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: ZOMBIFIED_PIGLIN
+    required_amount: 15
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1500 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  10:
+    name: "#f07818Axe-Wielding Monsters"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Engage in combat and defeat 5 vindicators,"
+      - "&8proving your strength against formidable opponents."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078185 #75C2F6vindicators."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f07818600 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: VINDICATOR
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  11:
+    name: "#f07818A Bitten Hoglin"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Confront and defeat a fearsome zoglin,"
+      - "&8showing your ability to handle dangerous"
+      - "&8creatures of the Nether."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078181 #75C2F6zoglin."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f07818600 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: ZOGLIN
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  12:
+    name: "#f07818Blessed by the Gods"
+    menu_item: FISHING_ROD
+    description:
+      - "&8Try your luck at fishing and catch"
+      - "&8an enchanted book, earning the favor of the gods."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Fish #f078181 #75C2F6enchanted book."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f07818600 #75C2F6XPs"
+      - "&e▪ #f078185000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: FISH
+    required_item: ENCHANTED_BOOK
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 5000"
+        - "playerpoints:p give %player_name% 10"
+  13:
+    name: "#f07818It''s Not The End"
+    menu_item: END_CRYSTAL
+    description:
+      - "&8Harness the power of the End by crafting 4 end crystals,"
+      - "&8showcasing your ability to manipulate"
+      - "&8this mystical energy."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Craft #f078184 #75C2F6end crystals."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181000 #75C2F6XPs"
+      - "&e▪ #f078182500 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: CRAFT
+    required_item: END_CRYSTAL
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 2500"
+        - "playerpoints:p give %player_name% 10"
+  14:
+    name: "#f07818Dont Mine Me"
+    menu_item: SCULK_SENSOR
+    description:
+      - "&8Extract 3 sculk sensors from the depths,"
+      - "&8demonstrating your knowledge of the"
+      - "&8mysterious and hidden parts of the world."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Mine #f078183 #75C2F6Sculk Sensor."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f07818600 #75C2F6XPs"
+      - "&e▪ #f078182500 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: BREAK
+    required_item: SCULK_SENSOR
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 2500"
+        - "playerpoints:p give %player_name% 10"
+  15:
+    name: "#f07818Running Out of Eggs!"
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&8Collect 16 stacks of eggs,"
+      - "&8showcasing your commitment"
+      - "&8and resourcefulness."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Submit #f0781816 stacks #75C2F6of eggs."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181200 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: GET
+    required_item: EGG
+    required_amount: 256
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1200 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  16:
+    name: "#f07818Copper for XP!"
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&8Gather and submit 256 copper ingots,"
+      - "&8utilizing the abundant resource"
+      - "&8to gain valuable experience."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Submit #f07818256 #75C2F6copper ingots."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181500 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: GET
+    required_item: COPPER_INGOT
+    required_amount: 256
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1500 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  17:
+    name: "#f07818Bear With Me"
+    menu_item: BAMBOO
+    description:
+      - "&8Breed a pair of pandas, contributing to"
+      - "&8the preservation of these rare"
+      - "&8and beloved creatures."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Breed #f078181 #75C2F6panda."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181000 #75C2F6XPs"
+      - "&e▪ #f078181500 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: BREED
+    required_entity: PANDA
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1500"
+        - "playerpoints:p give %player_name% 10"
+  18:
+    name: "#f07818Too Bright!"
+    menu_item: BEACON
+    description:
+      - "&8Master the art of crafting by"
+      - "&8creating a beacon, harnessing"
+      - "&8its powerful light to guide your path."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Craft #f078181 #75C2F6beacon."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181000 #75C2F6XPs"
+      - "&e▪ #f078187500 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: CRAFT
+    required_item: BEACON
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 7500"
+        - "playerpoints:p give %player_name% 10"
+  19:
+    name: "#f07818Moving Boxes"
+    menu_item: SHULKER_BOX
+    description:
+      - "&8Craft a shulker box, proving"
+      - "&8your organizational skills"
+      - "&8and ability to store items efficiently."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Craft #f078181 #75C2F6shulker box."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181000 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: CRAFT
+    required_item: SHULKER_BOX
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  20:
+    name: "#f07818Darkness Consume Us All"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Face the menacing Warden and emerge victorious,"
+      - "&8protecting yourself and your fellow"
+      - "&8players from its wrath."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Kill #f078181 #75C2F6Warden."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078181500 #75C2F6XPs for EVERYONE online."
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: WARDEN
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "eco give %player_name% 1000"
+        - "xp add @a 1500"
+        - "title @a title \"%player% Has Slain The Warden!\""
+        - "playerpoints:p give %player_name% 10"
+  21:
+    name: "#f07818Mining For Trouble"
+    menu_item: REINFORCED_DEEPSLATE
+    description:
+      - "&8Mine 3 reinforced deepslate blocks,"
+      - "&8demonstrating your ability"
+      - "&8to handle the challenging "
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Mine #f078183 #75C2F6Reinforced Deepslate."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f078182000 #75C2F6XPs"
+      - "&e▪ #f0781810000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: BREAK
+    required_item: REINFORCED_DEEPSLATE
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  22:
+    name: "#f07818Not Deepslate"
+    menu_item: DIAMOND_ORE
+    description:
+      - "&8Mine 5 diamond ores, uncovering"
+      - "&8the precious gemstones hidden"
+      - "&8within the earth."
+      - ""
+      - "#f07818&lObjectives:"
+      - "#f07818&l▪ #75C2F6Mine #f078185 #75C2F6Diamond Ores."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f07818750 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781810 #75C2F6Points"
+      - ""
+    quest_type: BREAK
+    required_item: DIAMOND_ORE
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "playerpoints:p give %player_name% 10"
+  23:
+    name: "#f07818Blood for the Blood God"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Amidst the chaos and carnage, the Blood God's insatiable"
+      - "&8hunger awakens. Slay three unsuspecting players,"
+      - "&8drenching the realm in crimson."
+      - ""
+      - "#f07818&lObjectives:"
+      - "&e▪ #75C2F6Kill #f078186 #75C2F6players."
+      - ""
+      - "#f07818&lRewards:"
+      - "&e▪ #f07818 #75C2F6XPs"
+      - "&e▪ #f078181000 #75C2F6Money"
+      - "&e▪ #f0781860 #75C2F6Points"
+      - ""
+    quest_type: KILL
+    required_entity: PLAYER
+    required_amount: 6
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "Points give %player_name% 60"

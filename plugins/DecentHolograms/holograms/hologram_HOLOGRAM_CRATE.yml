@@ -1,0 +1,21 @@
+location: spawn:15.514:102.300:-26.253
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+origin: UP
+down-origin: false
+pages:
+- lines:
+  - content: '&f&l7-Р АНГИЙН НАЙЗУУД &9&lSERVER ТАВТАЙ МОРИЛ'
+    height: 0.8
+  - content: '&fБүх боломжтой түлхүүрээ ашиглан авдраа нээж'
+    height: 0.3
+  - content: '&fшагнал аваарай! Илүү олон түлхүүр авахын тулд &cсанал өгөх&f эсвэл'
+    height: 0.3
+  - content: '&f&cхандив өгөх&f боломжтой.'
+    height: 0.7
+  actions: {}
+always-face-player: true
+

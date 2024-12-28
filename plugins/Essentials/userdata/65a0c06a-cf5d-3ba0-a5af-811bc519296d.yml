@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 122.201.19.4
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1733295044870
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733295278139
+  login: 1733295218560
+money: '0'
+last-account-name: TugsJurhEgg
+lastlocation:
+  world: bfcc9491-a06a-42f1-ba58-7dfccdadadbf
+  world-name: spawn
+  x: 1.7441262273967468
+  y: 100.0
+  z: -3.0244963472660715
+  yaw: -155.8826446533203
+  pitch: -4.809153079986572
+logoutlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: 170.74214302675205
+  y: 63.0
+  z: -384.54992723808283
+  yaw: -86.88268280029297
+  pitch: -20.549930572509766

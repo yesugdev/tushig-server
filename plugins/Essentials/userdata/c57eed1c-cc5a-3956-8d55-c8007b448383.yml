@@ -1,0 +1,49 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 66.181.185.107
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1734094686005
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734009284532
+  login: 1734093578326
+  kits:
+    vip: 0
+money: '608523.6900000003'
+last-account-name: ExodusMNF
+lastlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: 438.9725383551075
+  y: -27.0
+  z: 722.9110279716173
+  yaw: -72.1650390625
+  pitch: 18.749982833862305
+logoutlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: -995.8220197159275
+  y: 63.5
+  z: 872.9475193611601
+  yaw: -103.95712280273438
+  pitch: 7.950098514556885
+homes:
+  home:
+    world: 311b6a0c-0b28-41a7-b586-7412966fa270
+    world-name: world
+    x: -993.7560826387116
+    y: 65.0
+    z: 858.4657521725134
+    yaw: 97.49365234375
+    pitch: 29.09981918334961

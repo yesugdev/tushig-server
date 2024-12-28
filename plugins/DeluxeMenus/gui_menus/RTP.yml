@@ -1,0 +1,77 @@
+menu_title: '&8Warp RTP'
+size: 26
+open_command:
+- 'Warp-RTP'
+items:
+  'background_body':
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: ' &r '
+    slots:
+    - 0-44
+  'close':
+    material: BARRIER
+    display_name: '&c&l❌ &cClose'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_CHEST_CLOSE'
+    slot: 22
+  'goback':
+    material: ARROW
+    display_name: "&c&l⤊ &cGo Back"
+    click_commands:
+    - "[sound] BLOCK_WOODEN_DOOR_OPEN"
+    - "[player] warps"
+    slot: 18
+  'warp_wild':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
+    slot: 11
+    display_name: '&c&lWILD'
+    lore:
+    - ''
+    - '&cDescription'
+    - " &c| &7Get yourself a materials to build your land"
+    - ""
+    - '&cInformation'
+    - ' &c| &7Size: &f10,000 x 10,000'
+    - ' &c| &7Faction Claiming: &cOn'
+    - ' &c| &7Keep Inventory: &cOff'
+    - ' &c| &7PvP Enabled: &cOn'
+    - ''
+    - '&c&l| &cᴄʟɪᴄᴋ ᴛᴏ ʀᴛᴘ'
+    click_commands:
+    - '[close]'
+    - '[player] rtp'
+
+  'warp_nether':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMyMGNlMzJmYWEyN2Q1MDQzNmQ1NWZkODg0ZDJlN2VmYjEwODcwZmY2MTllM2I1Y2M4MjczNjYyNzk3YzgyZCJ9fX0=
+    slot: 13
+    display_name: '&4&lNETHER'
+    lore:
+    - ""
+    - '&cInformation'
+    - ' &c| &7Size: &f5,000 x 5,000'
+    - ' &c| &7Faction Claiming: &cOff'
+    - ' &c| &7Keep Inventory: &cOff'
+    - ' &c| &7PvP Enabled: &cOn'
+    - ''
+    - '&c&l| &cᴄʟɪᴄᴋ ᴛᴏ ʀᴛᴘ'
+    click_commands:
+    - '[close]'
+    - '[player] nethertp'
+
+  'warp_end':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QyNTVmZWU1ZjdjZjkwODFmMmMwZDVhMDQ0MmFjM2YzZmQxZmMyNGNiOTU2ZTNmMWQzMzE4NjNkMTFkZTE3NiJ9fX0=
+    slot: 15
+    display_name: '&d&lEND'
+    lore:
+    - ""
+    - '&cInformation'
+    - ' &c| &7Size: &f5,000 x 5,000'
+    - ' &c| &7Faction Claiming: &cOff'
+    - ' &c| &7Keep Inventory: &cOff'
+    - ' &c| &7PvP Enabled: &cOn'
+    - ''
+    - '&c&l| &cᴄʟɪᴄᴋ ᴛᴏ ʀᴛᴘ'
+    click_commands:
+    - '[close]'
+    - '[player] endtp'

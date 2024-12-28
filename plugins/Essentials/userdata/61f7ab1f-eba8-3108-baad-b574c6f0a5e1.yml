@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 139.5.217.88
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733578833738
+  login: 1733578535461
+money: '0'
+last-account-name: sharbudaa
+lastlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: -82.0
+  y: 66.0
+  z: -362.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: bfcc9491-a06a-42f1-ba58-7dfccdadadbf
+  world-name: spawn
+  x: 31.824452096043117
+  y: 104.0
+  z: -111.32431610631866
+  yaw: 21.116119384765625
+  pitch: 11.5408296585083

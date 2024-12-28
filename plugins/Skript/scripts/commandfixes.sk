@@ -1,0 +1,24 @@
+command /help:
+    executable by: players
+    trigger:
+        make player execute command "/helper"
+command /shop:
+    executable by: players
+    trigger:
+        make player execute command "/economyshopgui:shop"                   
+command /dailyrewards:
+    executable by: players
+    trigger:
+        make player execute command "/dailyrewards:rewards"          
+command /daily:
+    executable by: players
+    trigger:
+        make player execute command "/dailyrewards:rewards"                       
+command /ce:
+    executable by: players
+    trigger:
+        make player execute command "/excellentenchants list"               
+command /enchants:
+    executable by: players
+    trigger:
+        make player execute command "/excellentenchants list"        

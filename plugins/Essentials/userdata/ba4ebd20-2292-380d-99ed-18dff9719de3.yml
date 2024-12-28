@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 59.153.112.196
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1734060508962
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734060661198
+  login: 1734058121626
+money: '51.82'
+last-account-name: amarbayasakh
+lastlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: 853.2472601077186
+  y: 63.0
+  z: 1101.2499360354484
+  yaw: 25.48805809020996
+  pitch: 22.650117874145508
+logoutlocation:
+  world: bfcc9491-a06a-42f1-ba58-7dfccdadadbf
+  world-name: spawn
+  x: -10.149872249891542
+  y: 99.0
+  z: -53.187369488599245
+  yaw: -125.13267517089844
+  pitch: 11.6908540725708
+homes:
+  home:
+    world: 311b6a0c-0b28-41a7-b586-7412966fa270
+    world-name: world
+    x: 438.42858121025245
+    y: -27.0
+    z: 723.1818097689342
+    yaw: -122.8675537109375
+    pitch: 20.25

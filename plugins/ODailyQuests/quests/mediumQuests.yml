@@ -1,0 +1,679 @@
+quests:
+  1:
+    name: "#90d8d8High Pressure"
+    menu_item: DEEPSLATE_DIAMOND_ORE
+    description:
+      - "&8Delve into the depths and mine 10 Deepslate Diamond Ores"
+      - "&8to prove your skill."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Mine #90d8d810 #75C2F6Deepslate Diamond Ores."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8888 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d82500 #75C2F6Money"
+      - ""
+    quest_type: BREAK
+    required_item: DEEPSLATE_DIAMOND_ORE
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 888 %player_name% -s"
+        - "eco give 2500 number"
+  2:
+    name: "#90d8d8Too Coal For You"
+    menu_item: COAL_BLOCK
+    description:
+      - "&8Show your expertise by crafting 20 blocks of coal,"
+      - "&8showcasing your mastery over this valuable resource."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Craft #90d8d820 #75C2F6block of coals."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8600 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: CRAFT
+    required_item: COAL_BLOCK
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 1000"
+  3:
+    name: "#90d8d8Slender Man"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Hunt down and eliminate 5 Endermen to demonstrate"
+      - "&8your courage and earn a formidable reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d85 #75C2F6endermans."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8666 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d82500 #75C2F6Money"
+      - ""
+    quest_type: KILL
+    required_entity: ENDERMAN
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 666 %player_name% -s"
+        - "eco give %player_name% 2500"
+  4:
+    name: "#90d8d8What is Sleep?"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Overcome the night's terrors by vanquishing 10 Phantoms"
+      - "&8and prove that sleep is for the weak"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d810 #75C2F6phantoms."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8666 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d85000 #75C2F6Money"
+      - ""
+    quest_type: KILL
+    required_entity: PHANTOM
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 666 %player_name% -s"
+        - "eco 5000 %player_name% number"
+  5:
+    name: "#90d8d8Are We Not Friends?"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Face off against an Iron Golem and emerge"
+      - "&8victorious to prove your might"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d81 #75C2F6iron golem."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8826 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: KILL
+    required_entity: IRON_GOLEM
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 826 %player_name% -s"
+        - "eco give %player_name% 1000"
+  6:
+    name: "#90d8d8Kaboom!"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Engage in explosive encounters and eliminate 5 Creepers"
+      - "&8to show your prowess and earn a satisfying reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d85 #75C2F6creepers."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8666 #75C2F6XPs"
+      - ""
+    quest_type: KILL
+    required_entity: CREEPER
+    required_amount: 5
+    reward:
+      reward_type: EXP_POINTS
+      amount: 666
+  7:
+    name: "#90d8d8Cute But Deadly"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Take down a seemingly harmless rabbit,"
+      - "&8revealing its hidden ferocity"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d81 #75C2F6rabbit."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8500 #75C2F6XPs"
+      - ""
+    quest_type: KILL
+    required_entity: RABBIT
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add %player% 500"
+        - "execute as %player% at %player% run summon rabbit ~ ~1 ~ {RabbitType:99}"
+        - "execute as %player% at %player% run summon rabbit ~ ~1 ~ {RabbitType:99}"
+  8:
+    name: "#90d8d8Gold Digger"
+    menu_item: BLAST_FURNACE
+    description:
+      - "&8Refine your mining skills by smelting 50 Gold Ingots,"
+      - "&8unlocking the treasures within."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Smelt #90d8d850 #75C2F6Gold Ingots in furnace."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8500 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d85000 #75C2F6Money"
+      - ""
+    quest_type: COOK
+    required_item: GOLD_INGOT
+    required_amount: 50
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 500 %player_name% -s"
+        - "eco give %player_name% 5000"
+  9:
+    name: "#90d8d8Oh The Irony"
+    menu_item: BLAST_FURNACE
+    description:
+      - "&8Put your blacksmithing abilities to the test by smelting"
+      - "&850 Iron Ingots and reap the rewards of your craftsmanship."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Smelt #90d8d850 #75C2F6Iron Ingots in furnace."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8826 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d82500 #75C2F6Money"
+      - ""
+    quest_type: COOK
+    required_item: IRON_INGOT
+    required_amount: 50
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 826 %player_name% -s"
+        - "eco give %player_name% 2500"
+  10:
+    name: "#90d8d8Run or Get Runover"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Defeat 3 Hoglins in battle, showcasing your"
+      - "&8agility and strength, and receive a well-deserved reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d83 #75C2F6hoglins."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8600 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d85000 #75C2F6Money"
+      - ""
+    quest_type: KILL
+    required_entity: HOGLIN
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 5000"
+  11:
+    name: "#90d8d8Too Hot For You"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Brave the scorching flames and defeat 15 Blazes"
+      - "&8to prove your resilience"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d815 #75C2F6blazes."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8800 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d83500 #75C2F6Money"
+      - ""
+    quest_type: KILL
+    required_entity: BLAZE
+    required_amount: 15
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 800 %player_name% -s"
+        - "eco give %player_name% 3500"
+  12:
+    name: "#90d8d8Big Baby"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Confront and conquer 2 formidable Ghasts,"
+      - "&8showcasing your prowess against"
+      - "&8these intimidating creatures"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d82 #75C2F6ghasts."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8600 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81500 #75C2F6Money"
+      - ""
+    quest_type: KILL
+    required_entity: GHAST
+    required_amount: 2
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 1500"
+  13:
+    name: "#90d8d8I Don''t Feel Good"
+    menu_item: POISONOUS_POTATO
+    description:
+      - "&8Embrace danger by consuming a poisonous potato,"
+      - "&8displaying your tolerance for adversity"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Eat #90d8d81 #75C2F6poisonous potato."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8500 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: CONSUME
+    required_item: POISONOUS_POTATO
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 500 %player_name% -s"
+        - "eco give %player_name% 1000"
+  14:
+    name: "#90d8d8Bird Goes Arggh"
+    menu_item: LEAD
+    description:
+      - "&8Tame a lively Parrot, demonstrating your ability"
+      - "&8to form unique bonds with creatures"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Tame #90d8d81 #75C2F6parrot."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8888 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: TAME
+    required_entity: PARROT
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 888 %player_name% -s"
+        - "eco give %player_name% 1000"
+  15:
+    name: "#90d8d8Sea shell"
+    menu_item: TURTLE_HELMET
+    description:
+      - "&8Acquire a precious Scute, symbolizing your connection"
+      - "&8with the ocean's wonders, and receive a fitting reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Submit #90d8d81 #75C2F6scute."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8700 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d87500 #75C2F6Money"
+      - ""
+    quest_type: GET
+    required_item: SCUTE
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 700 %player_name% -s"
+        - "eco give %player_name% 7500"
+  16:
+    name: "#90d8d8Mechanic"
+    menu_item: PISTON
+    description:
+      - "&8Demonstrate your engineering skills by crafting 3 Pistons,"
+      - "&8showcasing your ingenuity and earning a commendable reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Craft #90d8d83 #75C2F6pistons."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8600 #75C2F6XPs"
+      - ""
+    quest_type: CRAFT
+    required_item: PISTON
+    required_amount: 3
+    reward:
+      reward_type: EXP_POINTS
+      amount: 600
+  17:
+    name: "#90d8d8Engineer"
+    menu_item: STICKY_PISTON
+    description:
+      - "&8Master the art of crafting 2 Sticky Pistons,"
+      - "&8exemplifying your advanced engineering abilities and earning a worthy reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Craft #90d8d82 #75C2F6sticky pistons."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8600 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6XPs"
+      - ""
+    quest_type: CRAFT
+    required_item: STICKY_PISTON
+    required_amount: 2
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 1000"
+  18:
+    name: "#90d8d8Fine Dining"
+    menu_item: GOLDEN_APPLE
+    description:
+      - "&8Craft 5 Golden Apples, showcasing your"
+      - "&8culinary expertise and earning a rewarding prize."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Craft #90d8d85 #75C2F6golden apples."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8888 #75C2F6XPs"
+      - ""
+    quest_type: CRAFT
+    required_item: GOLDEN_APPLE
+    required_amount: 5
+    reward:
+      reward_type: EXP_POINTS
+      amount: 888
+  19:
+    name: "#90d8d8Pricey Food"
+    menu_item: GOLDEN_CARROT
+    description:
+      - "&8Create 5 Golden Carrots, revealing your dedication to"
+      - "&8extravagant cuisine and earning a satisfying reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Craft #90d8d85 #75C2F6golden carrots."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8700 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: CRAFT
+    required_item: GOLDEN_CARROT
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 700 %player_name% -s"
+        - "eco give %player_name% 1000"
+  20:
+    name: "#90d8d8Colorful Night"
+    menu_item: FIREWORK_STAR
+    description:
+      - "&8Craft a dazzling Firework Star, showcasing your creativity"
+      - "&8and pyrotechnic skills, and receive a vibrant reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Craft #90d8d81 #75C2F6Firework Star."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8500 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d87500 #75C2F6Money"
+      - ""
+    quest_type: CRAFT
+    required_item: FIREWORK_STAR
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 500 %player_name% -s"
+        - "eco give %player_name% 7500"
+  21:
+    name: "#90d8d8Cheap Air Conditioner"
+    menu_item: PACKED_ICE
+    description:
+      - "&8Craft a refreshing Packed Ice block, providing relief"
+      - "&8from the heat and earning a well-deserved reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Craft #90d8d81 #75C2F6Packed Ice."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8750 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: CRAFT
+    required_item: PACKED_ICE
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 750 %player_name% -s"
+        - "eco give %player_name% 1000"
+  22:
+    name: "#90d8d8What a Deal!"
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&8Gather 128 Eggs to make an extraordinary trade,"
+      - "&8unlocking a substantial reward for your "
+      - "&8exceptional efforts."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Submit #90d8d88 stacks #75C2F6of eggs."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8500 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d85000 #75C2F6Money"
+      - ""
+    quest_type: GET
+    required_item: EGG
+    required_amount: 128
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 500 %player_name% -s"
+        - "eco give %player_name% 5000"
+  23:
+    name: "#90d8d8Homemade Fugu"
+    menu_item: PUFFERFISH
+    description:
+      - "&8Display your culinary bravery by consuming a Pufferfish,"
+      - "&8proving your taste for exotic delicacies"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Eat #90d8d81 #75C2F6pufferfish."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8600 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d85000 #75C2F6Money"
+      - ""
+    quest_type: CONSUME
+    required_item: PUFFERFISH
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 600 %player_name% -s"
+        - "eco give %player_name% 5000"
+  24:
+    name: "#90d8d8Copper for XP!"
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&8Collect 128 Copper Ingots, harnessing their power"
+      - "&8to fuel your journey"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Submit #90d8d8128 #75C2F6copper ingots."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8700 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d85000 #75C2F6Money"
+      - ""
+    quest_type: GET
+    required_item: COPPER_INGOT
+    required_amount: 128
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 700 %player_name% -s"
+        - "eco give %player_name% 5000"
+  25:
+    name: "#90d8d8Someone''s Looking"
+    menu_item: ENDER_CHEST
+    description:
+      - "&8Master the art of crafting an Ender Chest,"
+      - "&8capturing the attention of otherworldly beings"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Craft #90d8d81 #75C2F6ender chest."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8800 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: CRAFT
+    required_item: ENDER_CHEST
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 800 %player_name% -s"
+        - "eco give %player_name% 1000"
+  26:
+    name: "#90d8d8Am I Drowning?"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Defeat 5 Guardians in underwater combat,"
+      - "&8proving your aquatic prowess"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d85 #75C2F6guardians."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8800 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d87500 #75C2F6Money"
+      - ""
+    quest_type: KILL
+    required_entity: GUARDIAN
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 800 %player_name% -s"
+        - "eco give %player_name% 7500"
+  27:
+    name: "#90d8d8Hunting Harry Potter"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Eliminate a powerful Witch, displaying your prowess"
+      - "&8in magical combat and earning a mystical reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d81 #75C2F6witch."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8777 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: KILL
+    required_entity: WITCH
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 777 %player_name% -s"
+        - "eco give %player_name% 1000"
+  28:
+    name: "#90d8d8Pretty Stones"
+    menu_item: GILDED_BLACKSTONE
+    description:
+      - "&8Mine 10 Gilded Blackstones, unveiling their beauty"
+      - "&8and rarity while earning a handsome reward."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Mine #90d8d810 #75C2F6Gilded Blackstone."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8800 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d85000 #75C2F6Money"
+      - ""
+    quest_type: BREAK
+    required_item: GILDED_BLACKSTONE
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 800 %player_name% -s"
+        - "eco give %player_name% 5000"
+  29:
+    name: "#90d8d8The Cutest Predator"
+    menu_item: AXOLOTL_BUCKET
+    description:
+      - "&8Breed an adorable Axolotl, showcasing your nurturing"
+      - "&8abilities and earning a rewarding prize."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Breed #90d8d81 #75C2F6Axolotl."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8700 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: BREED
+    required_entity: AXOLOTL
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 700 %player_name% -s"
+        - "eco give %player_name% 1000"
+  30:
+    name: "#90d8d8Artificial Selection"
+    menu_item: WHEAT
+    description:
+      - "&8Successfully breed a Mule, displaying"
+      - "&8your mastery of animal husbandry"
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Breed #90d8d81 #75C2F6mule."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d8700 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - ""
+    quest_type: BREED
+    required_entity: MULE
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 700 %player_name% -s"
+        - "eco give %player_name% 1000"
+  31:
+    name: "#90d8d8Murder in my Mind"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Within the depths of your mind, a sinister urge emerges:"
+      - "&8the thirst for murder.Hunt down and eliminate"
+      - "&83 players, embracing the darkness within."
+      - ""
+      - "#90d8d8&lObjectives:"
+      - "#FBEEAC▪ #75C2F6Kill #90d8d83 #75C2F6players."
+      - ""
+      - "#90d8d8&lRewards:"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6XPs"
+      - "#FBEEAC▪ #90d8d81000 #75C2F6Money"
+      - "#FBEEAC▪ #90d8d830 #75C2F6Coins"
+      - ""
+    quest_type: KILL
+    required_entity: PLAYER
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "coins give %player_name% 30"

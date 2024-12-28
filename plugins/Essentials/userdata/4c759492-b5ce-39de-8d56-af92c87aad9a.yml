@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 59.153.112.215
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733905406040
+  login: 1733904634470
+money: '0'
+last-account-name: temuulintheshark
+lastlocation:
+  world: bfcc9491-a06a-42f1-ba58-7dfccdadadbf
+  world-name: spawn
+  x: -0.38780461388931836
+  y: 100.0
+  z: -6.002266639713133
+  yaw: -10.68212890625
+  pitch: 59.250022888183594
+logoutlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: -248.29840085227713
+  y: 64.0
+  z: -358.47572990338267
+  yaw: -174.78395080566406
+  pitch: 16.799949645996094

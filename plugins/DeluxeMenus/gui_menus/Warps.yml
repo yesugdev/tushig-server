@@ -1,0 +1,67 @@
+menu_title: '&8Warp Menu'
+size: 44
+open_command:
+- warplist
+- warpss
+- warps
+- warp
+- essentials:warps
+- essentials:warplist
+- essentials:warplists
+- essentials:warpslist
+- essentials:warpslists
+- essentials:warp
+- ewarps
+- ewarp
+- essentials:ewarp
+- essentials:ewarps
+items:
+  'goback':
+    material: ARROW
+    display_name: "&c&l⤊ &cGoBack"
+    click_commands:
+    - "[sound] BLOCK_WOODEN_DOOR_OPEN"
+    - "[player] menu"
+    slot: 36
+  'background_body':
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: ' &r '
+    slots:
+    - 0-44
+  'close':
+    material: BARRIER
+    display_name: '&c&l❌ &cClose'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_CHEST_CLOSE'
+    slot: 40
+  'SERVER':
+    material: GOLDEN_PICKAXE
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&cServer Warps'
+    lore:
+    - ''
+    - '&cDescription'
+    - ' &c| &7Click to view all available'
+    - ' &c| &7server warps.'
+    - ''
+    - '&c&l| &cᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+    - '[player] Warp-Server'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    slot: 21
+  'RTP':
+    material: GRASS_BLOCK
+    display_name: '&cRTP Warps'
+    lore:
+    - ''
+    - '&cDescription'
+    - ' &c| &7Click to view all available'
+    - ' &c| &7Random Teleport.'
+    - ''
+    - '&c&l| &cᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+    - '[player] Warp-RTP'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    slot: 23

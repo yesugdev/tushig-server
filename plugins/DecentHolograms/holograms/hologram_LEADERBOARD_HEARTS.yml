@@ -1,0 +1,48 @@
+location: spawn:11.499:106.000:-0.369
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: RED_DYE'
+    height: 0.5
+  - content: '&c&lHEARTS LEADERBOARD'
+    height: 0.3
+  - content: '&4[Top 10 Strongest Players!]'
+    height: 0.5
+  - content: '&c&l1st &f%ajlb_lb_lssmp_hearts_1_alltime_name% &f➟ &c❤&l%ajlb_lb_lssmp_hearts_1_alltime_value%'
+    height: 0.3
+  - content: '&c&l2nd &f%ajlb_lb_lssmp_hearts_2_alltime_name% &f➟ &c❤&l%ajlb_lb_lssmp_hearts_2_alltime_value%'
+    height: 0.3
+  - content: '&c&l3rd &f%ajlb_lb_lssmp_hearts_3_alltime_name% &f➟ &c❤&l%ajlb_lb_lssmp_hearts_3_alltime_value%'
+    height: 0.3
+  - content: '&c4. &f%ajlb_lb_lssmp_hearts_4_alltime_name% &f➟ &c❤%ajlb_lb_lssmp_hearts_4_alltime_value%'
+    height: 0.3
+  - content: '&c5. &f%ajlb_lb_lssmp_hearts_5_alltime_name% &f➟ &c❤%ajlb_lb_lssmp_hearts_5_alltime_value%'
+    height: 0.3
+  - content: '&c6. &f%ajlb_lb_lssmp_hearts_6_alltime_name% &f➟ &c❤%ajlb_lb_lssmp_hearts_6_alltime_value%'
+    height: 0.3
+  - content: '&c7. &f%ajlb_lb_lssmp_hearts_7_alltime_name% &f➟ &c❤%ajlb_lb_lssmp_hearts_7_alltime_value%'
+    height: 0.3
+  - content: '&c8. &f%ajlb_lb_lssmp_hearts_8_alltime_name% &f➟ &c❤%ajlb_lb_lssmp_hearts_8_alltime_value%'
+    height: 0.3
+  - content: '&c9. &f%ajlb_lb_lssmp_hearts_9_alltime_name% &f➟ &c❤%ajlb_lb_lssmp_hearts_9_alltime_value%'
+    height: 0.3
+  - content: '&c&l10th &f%ajlb_lb_lssmp_hearts_10_alltime_name% &f➟ &c❤&l%ajlb_lb_lssmp_hearts_10_alltime_value%'
+    height: 0.5
+  - content: '&fYour Tokens: &c❤%lssmp_hearts%'
+    height: 0.3
+  - content: '&c&l(ᴄʟɪᴄᴋ ᴛᴏ ʀᴇғʀᴇsʜ)'
+    height: 0.3
+  actions:
+    LEFT:
+    - CONSOLE:ajlb updateplayer lssmp_hearts %player_name%
+    - SOUND:ENTITY_EXPERIENCE_ORB_PICKUP
+    - MESSAGE:&c&lʜᴏʟᴏɢʀᴀᴍs &8&l┃ &7You've updated the &fHearts Leaderboard&7!
+    RIGHT:
+    - CONSOLE:ajlb updateplayer lssmp_hearts %player_name%
+    - SOUND:ENTITY_EXPERIENCE_ORB_PICKUP
+    - MESSAGE:&c&lʜᴏʟᴏɢʀᴀᴍs &8&l┃ &7You've updated the &fHearts Leaderboard&7!

@@ -1,0 +1,49 @@
+location: spawn:-10.666:106.000:-0.453
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: diamond_sword'
+    height: 0.5
+  - content: '&6&lKILLS LEADERBOARD'
+    height: 0.3
+  - content: '&e[Top 10 Players of Skill!]'
+    height: 0.5
+  - content: '&6&l1st &f%ajlb_lb_statistic_player_kills_1_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_1_alltime_value%'
+    height: 0.3
+  - content: '&6&l2nd &f%ajlb_lb_statistic_player_kills_2_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_2_alltime_value%'
+    height: 0.3
+  - content: '&6&l3rd &f%ajlb_lb_statistic_player_kills_3_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_3_alltime_value%'
+    height: 0.3
+  - content: '&64. &f%ajlb_lb_statistic_player_kills_4_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_4_alltime_value%'
+    height: 0.3
+  - content: '&65. &f%ajlb_lb_statistic_player_kills_5_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_5_alltime_value%'
+    height: 0.3
+  - content: '&66. &f%ajlb_lb_statistic_player_kills_6_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_6_alltime_value%'
+    height: 0.3
+  - content: '&67. &f%ajlb_lb_statistic_player_kills_7_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_7_alltime_value%'
+    height: 0.3
+  - content: '&68. &f%ajlb_lb_statistic_player_kills_8_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_8_alltime_value%'
+    height: 0.3
+  - content: '&69. &f%ajlb_lb_statistic_player_kills_9_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_9_alltime_value%'
+    height: 0.3
+  - content: '&610. &f%ajlb_lb_statistic_player_kills_10_alltime_name% &f➟ &6%ajlb_lb_statistic_player_kills_10_alltime_value%'
+    height: 0.5
+  - content: '&fYour Kills: &6⚔%ajlb_position_statistic_player_kills_alltime%'
+    height: 0.3
+  - content: '&6&l(ᴄʟɪᴄᴋ ᴛᴏ ʀᴇғʀᴇsʜ)'
+    height: 0.3
+  actions:
+    LEFT:
+    - CONSOLE:ajlb updateplayer statistic_player_kills  %player_name%
+    - SOUND:ENTITY_EXPERIENCE_ORB_PICKUP
+    - MESSAGE:&c&lʜᴏʟᴏɢʀᴀᴍs &8&l┃ &7You've updated the &fKills Leaderboard&7!
+    RIGHT:
+    - CONSOLE:ajlb updateplayer statistic_player_kill %player_name%
+    - SOUND:ENTITY_EXPERIENCE_ORB_PICKUP
+    - MESSAGE:&c&lʜᴏʟᴏɢʀᴀᴍs &8&l┃ &7You've updated the &fKills Leaderboard&7!
+

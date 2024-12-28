@@ -1,0 +1,30 @@
+location: spawn:-11.891:104.000:-54.294
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: GOLD_INGOT!ENCHANTED'
+    height: 0.6
+  - content: '&c&lShop'
+    height: 0.6
+  - content: This is a shop server where you can
+    height: 0.3
+  - content: Sell or Buy an items!
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#ICON: CLOCK!ENCHANTED'
+    height: 0.6
+  - content: '&c&lAuction House'
+    height: 0.6
+  - content: Here you can modify the price of your item
+    height: 0.3
+  - content: how much does it worth, you can also
+    height: 0.3
+  - content: Buy any kinds of items on the auction!
+    height: 0.3
+  actions: {}

@@ -1,0 +1,32 @@
+owner:
+  tabprefix: '%vault-prefix%'
+  tabsuffix: '%vault-suffix%'
+vip:
+  tabprefix: '%vault-prefix%'
+  tagsuffix: '%vault-suffix%'
+vip+:
+  tabprefix: '%vault-prefix%'
+  tagsuffix: '%vault-suffix%'
+mvp:
+  tabprefix: '%vault-prefix%'
+  tagsuffix: '%vault-suffix%'
+mvp+:
+  tabprefix: '%vault-prefix%'
+  tagsuffix: '%vault-suffix%'
+mvp++:
+  tabprefix: '%vault-prefix%'
+  tagsuffix: '%vault-suffix%'
+mod:
+  tabprefix: '%vault-prefix%'
+  tagsuffix: '%vault-suffix%'
+admin:
+  tabprefix: '%vault-prefix%'
+helper:
+  tabprefix: '%vault-prefix%'
+  tagsuffix: '%vault-suffix%'
+default:
+  tabprefix: '%vault-prefix%'
+  tagsuffix: '%vault-suffix%'
+_DEFAULT_:
+  tabprefix: '%vault-prefix%'
+  tabsuffix: ''

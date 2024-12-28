@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 66.181.178.169
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1733997590518
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733997783542
+  login: 1733997571881
+money: '30190.4450000000000173'
+last-account-name: redhat
+lastlocation:
+  world: bfcc9491-a06a-42f1-ba58-7dfccdadadbf
+  world-name: spawn
+  x: -14.740826923423011
+  y: 100.0
+  z: -27.71654765635104
+  yaw: -35.84384536743164
+  pitch: 27.792724609375
+logoutlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: -1000.5
+  y: 66.0625
+  z: 852.5
+  yaw: -74.17903137207031
+  pitch: -0.10477453470230103
+nickname: Hunter
+homes:
+  home:
+    world: 311b6a0c-0b28-41a7-b586-7412966fa270
+    world-name: world
+    x: -995.9009068903885
+    y: 65.0
+    z: 857.3900802489886
+    yaw: -131.59030151367188
+    pitch: 10.320332527160645

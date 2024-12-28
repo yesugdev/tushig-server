@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 59.153.115.226
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1734094321074
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734094836579
+  login: 1734094845029
+money: '2343.7268000000000026'
+last-account-name: Justin0321
+lastlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: -329.4571028479867
+  y: 67.0
+  z: 125.09189065263695
+  yaw: 26.369659423828125
+  pitch: 15.750053405761719
+logoutlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: -65.39922052106581
+  y: 69.0
+  z: -367.2960675385801
+  yaw: -20.130218505859375
+  pitch: 1.0500527620315552

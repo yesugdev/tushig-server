@@ -1,0 +1,30 @@
+command /Rtp:
+    executable by: players
+    cooldown: 60 seconds
+    trigger:
+        execute console command "/betterrtp player %player% world"
+command /RandomTp:
+    executable by: players
+    cooldown: 60 seconds
+    trigger:
+        execute console command "/betterrtp player %player% world"
+command /Wild:
+    executable by: players
+    cooldown: 60 seconds
+    trigger:
+        execute console command "/betterrtp player %player% world"
+command /Nethertp:
+    executable by: players
+    cooldown: 60 seconds
+    trigger:
+        execute console command "/betterrtp player %player% world_nether"
+command /Endtp:
+    executable by: players
+    cooldown: 60 seconds
+    trigger:
+        execute console command "/betterrtp player %player% world_the_end"
+command /resourcetp:
+    executable by: players
+    cooldown: 60 seconds
+    trigger:
+        execute console command "/betterrtp player %player% RESOURCE"        

@@ -1,0 +1,90 @@
+menu_title: '&8Guide'
+open_command:
+- guide
+- help
+size: 27
+items:
+  'background_head':
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: ' &r '
+    slots:
+    - 0-26
+  'close':
+    material: BARRIER
+    display_name: '&c&l❌ &cClose'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_CHEST_CLOSE'
+    slot: 22
+  'GETTING_STARTED':
+    material: BOOK
+    display_name: '&c� &c&lGetting Started'
+    lore:
+    - ''
+    - '&cDescription'
+    - ' &c| &7In order to get started type &c/rtp'
+    - ' &c| &7to randomly teleport to the &cWild World'
+    - ' &c| &7do /tutorial to learn how to claim your land on lifesteal!'
+    - ''
+    - '&eClick here to view the tutorial.'
+    slot: 10
+    click_commands:
+    - '[close]'
+    - '[player] tutorial'
+    - '[sound] BLOCK_CHEST_CLOSE'    
+  'ECONOMY':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4MWM1MjlkNTJlMDNjZDc0YzNiZjM4YmI2YmEzZmRlMTMzN2FlOWJmNTAzMzJmYWE4ODllMGEyOGU4MDgxZiJ9fX0=
+    display_name: '&c⛂ &c&lEconomy'
+    lore:
+    - ''
+    - '&cDescription'
+    - ' &c| &7Earn money by getting yourself'
+    - ' &c| &7employed with &c/jobs join &e<job>&7 or by'
+    - ' &c| &7also gather materials of any'
+    - ' &c| &7type and &7sell&7 them in the &c/shop'
+    - ''
+    - ' &c| &7Check your balance whenever'
+    - ' &c| &7with &c/balance&7 and view global'
+    - ' &c| &7balances with &c/baltop&7 command.'
+    - ''
+    - ' &c| &7You can share the wealth with'
+    - ' &c| &c/pay &e<player> &e[amount] &7command.'
+    - ''
+    - ' &c| &7Don''t forget that you also can use'
+    - ' &c| &7Auctionhouse to sell materials &c/ah sell &e[amount]&7!'
+    - ''
+    slot: 12
+  'VOTING':
+    slot: 14
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFmNTBmMTcyYTUxMGZhNjBiMmFmMGNiYjg0ZjM3MTUzNmM5NjVlYTU1MDg4MTI1M2Y3ZWNkMjY0MDc5NjllYiJ9fX0=
+    display_name: '&c☑ &c&lVoting'
+    lore:
+    - ''
+    - '&cDescription'
+    - ' &c| &7Vote to support the server and'
+    - ' &c| &7receive:'
+    - '    &8- &7$100'
+    - '    &8- &7+🔑1 Vote Key'
+    - '&c(these rewards are not included in the setup!)'
+    - ''
+  'RANKS':
+    material: NAME_TAG
+    item_flags:
+    - HIDE_ENCHANTS
+    enchantments:
+    - 'DURABILITY;1'
+    display_name: '&c➓ &c&lRanks'
+    lore:
+    - ''
+    - '&cDescription'
+    - ' &c| &7Ranks provide additional perks and'
+    - ' &c| &7commands to players that choose'
+    - ' &c| &7to support the server.'
+    - ''
+    - ' &c| &7Ranks can be obtained &8(&c&lONLY&8)&7 through the'
+    - ' &c| &7Webstore: &c&nstore.yournetwork.net'
+    - ''
+    - '&c&l| &cᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    click_commands:
+    - '[player] ranks'
+    slot: 16

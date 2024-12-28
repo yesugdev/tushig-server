@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 150.129.206.8
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1705080228429
+  login: 1705080227196
+money: '0'
+last-account-name: Sukoyo
+lastlocation:
+  world: 49d15696-54fc-4d03-a62c-c50f1a375096
+  world-name: world
+  x: -82.0
+  y: 66.0
+  z: -362.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 2e27cace-9704-4eb3-ae17-857aa463d1e0
+  world-name: spawn
+  x: 2.5
+  y: 131.0
+  z: 5.5
+  yaw: 89.84994506835938
+  pitch: -2.4671459197998047

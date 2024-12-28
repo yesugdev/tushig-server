@@ -1,0 +1,63 @@
+Command:
+  List:
+    Desc: List of all custom enchantments.
+    Usage: '[player]'
+    DoneOthers: <lgray>Opened enchantments GUI for <lyellow>%player_name%</lyellow>.</lgray>
+  GetFuel:
+    Desc: Get enchantment fuel item.
+    Usage: <enchant> [amount]
+    Done: <lgray>You got <lyellow>x%amount% %name%</lyellow>.</lgray>
+  Enchant:
+    Usage: <enchant> <level> [player] [slot]
+    Desc: Enchants the item in your hand.
+    Done:
+      Self: <lgray><lyellow>%item%</lyellow> enchanted with <lyellow>%enchant% %level%</lyellow>!</lgray>
+      Others: <lgray><lyellow>%player_display_name%</lyellow>'s <lyellow>%item%</lyellow> enchanted with <lyellow>%enchant% %level%</lyellow>!</lgray>
+    Error:
+      NoItem: <red>There is no item to enchant!</red>
+  Book:
+    Usage: <player> <enchant> <level>
+    Desc: Gives custom enchanted book.
+    Done: <lgray>Given <lyellow>%enchant%</lyellow> enchanted book to <lyellow>%player_display_name%</lyellow>.</lgray>
+  RarityBook:
+    Usage: <player> <tier> <level>
+    Desc: Give an enchanted book with enchantment of specified rarity.
+    Done: <lgray>Given <lyellow>%name%</lyellow> enchanted book to <lyellow>%player_display_name%</lyellow>.</lgray>
+Error:
+  InvalidEnchantment: <red>Invalid enchantment.</red>
+  InvalidRarity: <red>Invalid rarity!</red>
+ItemCategory:
+  Helmet: Helmet
+  Chestplate: Chestplate
+  Leggings: Leggings
+  Boots: Boots
+  Elytra: Elytra
+  Sword: Sword
+  Axe: Axe
+  Hoe: Hoe
+  Pickaxe: Pickaxe
+  Shovel: Shovel
+  Trident: Trident
+  Bow: Bow
+  Crossbow: Crossbow
+  FishingRod: FishingRod
+  Shield: Shield
+  Breakable: Breakable
+  Armor: Armor
+  Tool: Tool
+  Weapon: Sword/Axe
+  Bows: Bow/Crossbow
+  Torso: Chestplate/Elytra
+  AllWeapon: All Weapon
+  MiningTools: Mining Tools
+DistributionWay:
+  ENCHANTING: Enchanting
+  VILLAGER: Villager
+  LOOT_GENERATION: Loot Generation
+  FISHING: Fishing
+  MOB_EQUIPMENT: Mob Equipment
+Rarity:
+  COMMON: Common
+  UNCOMMON: Uncommon
+  RARE: Rare
+  VERY_RARE: Very Rare

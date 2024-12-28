@@ -1,0 +1,837 @@
+quests:
+  1:
+    name: "&eZombie Slayer"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Become a fearsome zombie slayer and protect"
+      - "&8the realm from the undead menace."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e20 &6zombies."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e300 &6XPs"
+      - "&6▪ &e100 &6Money"
+      - ""
+       #copy this and paste it to the other quest descriptions
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 300 %player_name% -s"
+        - "eco give %player_name% 100"
+  2:
+    name: "&eNot Batman"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Embrace the night and prove that you're"
+      - "&8not afraid of these winged"
+      - "&8creatures by hunting bats."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e5 &6bats."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e600 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: BAT
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 600
+  3:
+    name: "&eChicken Dinner"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Unleash your inner hunter and enjoy"
+      - "&8a delicious chicken dinner after"
+      - "&8a successful hunt for chickens."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e10 &6chickens."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e500 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: CHICKEN
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 500
+  4:
+    name: "&eMutton Dinner"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Gather the woolly creatures and savor a hearty"
+      - "&8mutton dinner as your reward for hunting sheeps."
+      - ""
+      - "&6▪ &6Kill &e5 &6sheeps."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e500 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: SHEEP
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 500
+  5:
+    name: "&eSteak Dinner"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Master the art of cow hunting and relish"
+      - "&8a mouthwatering steak dinner as"
+      - "&8your reward for hunting cows."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e5 &6cows."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e500 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: COW
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 500
+  6:
+    name: "&eGulu Gulu Gulu"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Dive into the depths and eliminate"
+      - "&8drowned zombies lurking in bodies of water"
+      - "&8to keep the land safe."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e10 &6drowned zombies."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e1000 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: DROWNED
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 1000
+  7:
+    name: "&eBacon Dinner"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Embark on a quest to hunt pigs and indulge in"
+      - "&8a delicious bacon dinner as your well-deserved reward."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e5 &6pigs."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e500 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: PIG
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 500
+  8:
+    name: "&eInsomniac"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Embrace the darkness of the night"
+      - "&8and hunt down phantoms, showcasing"
+      - "&8your prowess as a skilled hunter."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e3 &6phantoms."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e1000 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: PHANTOM
+    required_amount: 3
+    reward:
+      reward_type: MONEY
+      amount: 1000
+  9:
+    name: "&eStranger Danger"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Protect the realm from pillagers"
+      - "&8by eliminating these dangerous foes and ensuring"
+      - "&8the safety of your fellow villagers."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e3 &6pillager."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e1500 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: PILLAGER
+    required_amount: 3
+    reward:
+      reward_type: MONEY
+      amount: 1500
+  10:
+    name: "&eBest Friend"
+    menu_item: LEAD
+    description:
+      - "&8Show your compassion for animals by taming"
+      - "&8a loyal wolf and gain a faithful"
+      - "&8companion in your adventures."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Tame &e1 &6wolf."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e200 &6XPs"
+      - ""
+    quest_type: TAME
+    required_entity: WOLF
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 200
+  11:
+    name: "&eMore Than 206 Bones"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Confront the skeletal forces"
+      - "&8that haunt the land, demonstrating"
+      - "&8your strength and fearlessness."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e10 &6skeletons."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e1000 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: SKELETON
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 1000
+  12:
+    name: "&eBurn It All!"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Engage in a battle against spiders,"
+      - "&8wielding your weapon to eradicate"
+      - "&8these eight-legged threats."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e15 &6spiders."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e1250 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: SPIDER
+    required_amount: 15
+    reward:
+      reward_type: MONEY
+      amount: 1250
+  13:
+    name: "&eScuba Diving"
+    menu_item: TROPICAL_FISH_BUCKET
+    description:
+      - "&8Dive into the ocean and capture"
+      - "&8the vibrant beauty of tropical"
+      - "&8fishes in your bucket."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Submit &e1 &6tropical fish in bucket."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e300 &6XPs"
+      - ""
+    quest_type: GET
+    required_item: TROPICAL_FISH_BUCKET
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  14:
+    name: "&eKaching"
+    menu_item: EMERALD
+    description:
+      - "&8Engage in trade with villagers"
+      - "&8and obtain valuable emeralds,"
+      - "&8proving your business acumen."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Obtain &e5 &6Emeralds from villager."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e500 &6XPs"
+      - ""
+    quest_type: VILLAGER_TRADE
+    required_item: EMERALD
+    required_amount: 5
+    reward:
+      reward_type: EXP_POINTS
+      amount: 500
+  15:
+    name: "&eShine Bright Like a Diamond"
+    menu_item: GOLDEN_PICKAXE
+    description:
+      - "&8Venture into the depths of the earth"
+      - "&8and mine precious diamonds,"
+      - "&8reflecting your determination and skill."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Mine &e1 &6diamond ore."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e400 &6XPs"
+      - ""
+    quest_type: BREAK
+    required_item: DIAMOND_ORE
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 400
+  16:
+    name: "&eTo the Nether!"
+    menu_item: DIAMOND_PICKAXE
+    description:
+      - "&8Overcome the challenges of the Nether realm"
+      - "&8by mining and collecting obsidian to"
+      - "&8unlock new possibilities."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Mine &e10 &6obsidians."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e350 &6XPs"
+      - ""
+    quest_type: BREAK
+    required_item: OBSIDIAN
+    required_amount: 10
+    reward:
+      reward_type: EXP_POINTS
+      amount: 350
+  17:
+    name: "&eFresh Milk"
+    menu_item: MILK_BUCKET
+    description:
+      - "&8Milk cows to obtain their nutritious milk"
+      - "&8and enjoy its freshness as a"
+      - "&8reward for your efforts."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Milk &e1 &6cow."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e100 &6XPs"
+      - ""
+    quest_type: MILKING
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 100
+  18:
+    name: "&eHot Labor"
+    menu_item: GOLDEN_PICKAXE
+    description:
+      - "&8Traverse the dangerous Nether"
+      - "&8and mine quartz ore, braving the intense heat"
+      - "&8to claim your prize."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Mine &e20 &6nether quartz ores."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e350 &6XPs"
+      - ""
+    quest_type: BREAK
+    required_item: NETHER_QUARTZ_ORE
+    required_amount: 20
+    reward:
+      reward_type: EXP_POINTS
+      amount: 350
+  19:
+    name: "&eIron Man"
+    menu_item: GOLDEN_PICKAXE
+    description:
+      - "&8Unleash your mining skills and collect"
+      - "&8a substantial amount of iron ore,"
+      - "&8showcasing your dedication and strength."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Mine &e20 &6iron ores."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e450 &6XPs"
+      - ""
+    quest_type: BREAK
+    required_item: IRON_ORE
+    required_amount: 30
+    reward:
+      reward_type: EXP_POINTS
+      amount: 450
+  20:
+    name: "&eAm I Rich Yet?"
+    menu_item: GOLDEN_PICKAXE
+    description:
+      - "&8Delve into the depths of the earth"
+      - "&8and mine gold ore, hoping to strike"
+      - "&8it rich with your golden findings."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Mine &e15 &6gold ores."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e500 &6XPs"
+      - ""
+    quest_type: BREAK
+    required_item: GOLD_ORE
+    required_amount: 15
+    reward:
+      reward_type: EXP_POINTS
+      amount: 500
+  21:
+    name: "&eNo More Ink!"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Embark on a mission to rid the waters of squids,"
+      - "&8ensuring a clearer ocean for all to enjoy."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e10 &6squids."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e500 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: SQUID
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 500
+  22:
+    name: "&eHot and Squishy"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Venture into the fiery depths of the Nether"
+      - "&8and confront magma cubes,"
+      - "&8proving your resilience in battle."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e5 &6magma cubes."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪ &e1500 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: MAGMA_CUBE
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 1500
+  23:
+    name: "&eSlimy"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Engage in combat against slimes, those gelatinous"
+      - "&8adversaries that inhabit various"
+      - "&8parts of the world."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e3 &6slimes."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e1250 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: SLIME
+    required_amount: 3
+    reward:
+      reward_type: MONEY
+      amount: 1250
+  24:
+    name: "&eCopper for XP!"
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&8Unearth the valuable copper ore and smelt"
+      - "&8it into ingots, harnessing its"
+      - "&8power to gain valuable experience."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Submit &e64 &6copper ingots."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e500 &6XPs"
+      - ""
+    quest_type: GET
+    required_item: COPPER_INGOT
+    required_amount: 64
+    reward:
+      reward_type: EXP_POINTS
+      amount: 500
+  25:
+    name: "&eLeisure"
+    menu_item: FISHING_ROD
+    description:
+      - "&8Cast your line and engage in the tranquil activity"
+      - "&8of fishing, reeling in the"
+      - "&8elusive cod to relax and unwind."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Fish &e10 &6raw cods."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e300 &6XPs"
+      - ""
+    quest_type: FISH
+    required_item: COD
+    required_amount: 10
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  26:
+    name: "&eMoooo"
+    menu_item: WHEAT
+    description:
+      - "&8Engage in the rewarding task of breeding cows,"
+      - "&8expanding their population and"
+      - "&8fostering a thriving herd."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Breed &e5 &6cows."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e300 &6XPs"
+      - ""
+    quest_type: BREED
+    required_entity: COW
+    required_amount: 5
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  27:
+    name: "&eBaaaa"
+    menu_item: WHEAT
+    description:
+      - "&8Nourish the land with the presence"
+      - "&8of more sheep by breeding"
+      - "&8these gentle creatures."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Breed &e5 &6sheeps."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e300 &6XPs"
+      - ""
+    quest_type: BREED
+    required_entity: SHEEP
+    required_amount: 5
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  28:
+    name: "&eCluck"
+    menu_item: WHEAT_SEEDS
+    description:
+      - "&8Nurture a growing population of chickens"
+      - "&8by encouraging them to breed,"
+      - "&8ensuring a steady supply of poultry."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Breed &e5 &6chickens."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e300 &6XPs"
+      - ""
+    quest_type: BREED
+    required_entity: CHICKEN
+    required_amount: 5
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  29:
+    name: "&eOinks"
+    menu_item: CARROT
+    description:
+      - "&8Multiply the numbers of pigs by guiding them"
+      - "&8towards companionship and procreation,"
+      - "&8solidifying their place on the farm."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Breed &e5 &6pigs."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e300 &6XPs"
+      - ""
+    quest_type: BREED
+    required_entity: PIG
+    required_amount: 5
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  30:
+    name: "&eThis Is Boring"
+    menu_item: FISHING_ROD
+    description:
+      - "&8Test your patience and fishing skills by"
+      - "&8capturing the elusive pufferfish,"
+      - "&8a peculiar and intriguing aquatic creature."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Fish &e1 &6pufferfish."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e300 &6XPs"
+      - ""
+    quest_type: FISH
+    required_item: PUFFERFISH
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  31:
+    name: "&eTeam Trees"
+    menu_item: OAK_SAPLING
+    description:
+      - "&8Embrace the call of nature and contribute"
+      - "&8to the world's greenery by planting"
+      - "&8and nurturing oak saplings."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Plant &e15 &6oak saplings."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e500 &6XPs"
+      - ""
+    quest_type: PLACE
+    required_item: OAK_SAPLING
+    required_amount: 15
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  32:
+    name: "&eNatural Resources"
+    menu_item: GOLDEN_PICKAXE
+    description:
+      - "&8Venture deep into the earth and mine"
+      - "&8vast quantities of coal ore,"
+      - "&8harnessing its energy for various purposes."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Mine &e20 &6coal ores."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e350 &6XPs"
+      - ""
+    quest_type: BREAK
+    required_item: COAL_ORE
+    required_amount: 20
+    reward:
+      reward_type: EXP_POINTS
+      amount: 350
+  33:
+    name: "&eToo Easy!"
+    menu_item: EXPERIENCE_BOTTLE
+    description:
+      - "&8Gather an abundant supply of chicken eggs,"
+      - "&8symbolizing life and vitality,"
+      - "&8as you marvel at their sheer numbers."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Submit &e16 &6eggs."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e350 &6XPs"
+      - ""
+    quest_type: GET
+    required_item: EGG
+    required_amount: 16
+    reward:
+      reward_type: EXP_POINTS
+      amount: 350
+  34:
+    name: "&6Raining Arrows"
+    menu_item: ARROW
+    description:
+      - "&8Master the art of crafting arrows, ensuring a"
+      - "&8steady supply for your archery needs"
+      - "&8and raining destruction upon your foes."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Craft &e16 &6arrows."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e250 &6XPs"
+      - ""
+    quest_type: CRAFT
+    required_item: ARROW
+    required_amount: 16
+    reward:
+      reward_type: EXP_POINTS
+      amount: 250
+  35:
+    name: "&eMeoww"
+    menu_item: LEAD
+    description:
+      - "&8Establish a bond with the enigmatic cats by"
+      - "&8taming one, gaining a feline companion"
+      - "&8to accompany you on your adventures."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Tame &e1 &6cat."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e400 &6XPs"
+      - ""
+    quest_type: TAME
+    required_entity: CAT
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 400
+  36:
+    name: "&eCooking Metals"
+    menu_item: BLAST_FURNACE
+    description:
+      - "&8Transform raw GOLD into sturdy ingots"
+      - "&8through the process of smelting,"
+      - "&8utilizing the power of fire and heat."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Smelt &e30 &6GOLDs in furnace."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e350 &6XPs"
+      - ""
+    quest_type: COOK
+    required_item: GOLD_INGOT
+    required_amount: 30
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  37:
+    name: "&eHappy Birthday!"
+    menu_item: CAKE
+    description:
+      - "&8Celebrate a special occasion by baking a"
+      - "&8delectable cake, a symbol of joy and festivity."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Craft &e1 &6Cake."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e400 &6XPs"
+      - ""
+    quest_type: CRAFT
+    required_item: CAKE
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  38:
+    name: "&eFree Electricity"
+    menu_item: CANDLE
+    description:
+      - "&8Craft candles to illuminate the world around you,"
+      - "&8harnessing their warm glow to bring"
+      - "&8light into the darkness."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Craft &e3 &6Candles."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e300 &6XPs"
+      - ""
+    quest_type: CRAFT
+    required_item: CANDLE
+    required_amount: 3
+    reward:
+      reward_type: EXP_POINTS
+      amount: 300
+  39:
+    name: "&eAre We There Yet?"
+    menu_item: WHEAT
+    description:
+      - "&8Expand the population of donkeys by guiding them"
+      - "&8towards companionship and ensuring"
+      - "&8their continued existence."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Breed &e1 &6donkey."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e400 &6XPs"
+      - ""
+    quest_type: BREED
+    required_entity: DONKEY
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 400
+  40:
+    name: "&eToad-ally Cool"
+    menu_item: SLIME_BALL
+    description:
+      - "&8Engage in the unique task of breeding frogs,"
+      - "&8appreciating the fascinating amphibians"
+      - "&8and their vital role in the ecosystem."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Breed &e1 &6frog."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e400 &6XPs"
+      - ""
+    quest_type: BREED
+    required_entity: FROG
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 400
+  41:
+    name: "&eWhatever Floats Your Goat"
+    menu_item: WHEAT
+    description:
+      - "&8Foster the growth of goats by"
+      - "&8encouraging them to breed,"
+      - "&8marveling at their playful and lively nature."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Breed &e1 &6goat."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e400 &6XPs"
+      - ""
+    quest_type: BREED
+    required_entity: GOAT
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 400
+  42:
+    name: "&eAssasination"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&8Silently eliminate a marked player."
+      - "&8Be swift, precise, and undetectable."
+      - ""
+      - "&e&lObjectives:"
+      - "&6▪ &6Kill &e1 &6player."
+      - ""
+      - "&e&lRewards:"
+      - "&6▪  &e15000 &6Money"
+      - ""
+    quest_type: KILL
+    required_entity: PLAYER
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 15000

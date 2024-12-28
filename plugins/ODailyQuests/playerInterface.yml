@@ -1,0 +1,141 @@
+# ======================================================
+# Here you can create your own player quests interface.
+#
+# NEVER DELETE A %variable%
+# %progress% is replaced by the progression of the quest.
+# %required% is replaced by the required amount to complete the quest.
+# %achieved% is replaced by the number of completed quests.
+# %drawIn% is replaced by the time remaining before the next quests draw.
+# ======================================================
+player_interface:
+  disable_status: false
+  size: 45
+  inventory_name: '&8Daily Quests'
+  progress: '#FBEEAC▪ #75C2F6In Progress - (#F4D160%progress%#75C2F6/#FBEEAC%required%#75C2F6)'
+  status: '&e&lStatus:'
+  achieved: '#FBEEAC▪ #75C2F6Achieved!'
+  glowing_if_achieved: true
+  complete_get_type: '#FBEEACClick to complete this quest!'
+  player_head:
+    enabled: true
+    slot: 5
+    use_placeholders: true
+    item_name: '#F4D160Hello, %player_name%!'
+    item_description:
+    - '&e&lStats:'
+    - '&e&l▪ #75C2F6Completed Quests: #F4D160%odailyquests_total%'
+    - ''
+    - '&e&lStatus:'
+    - '&e&l▪ #75C2F6Daily Quests: #F4D160%achieved%#FBEEAC/#F4D1603'
+    - '&e&l▪ #75C2F6Next draw in: #F4D160%drawIn%'
+  # ========================================================
+  # Available types : FILL, PLAYER_COMMAND, CONSOLE_COMMAND
+  # Placeholders : %player%
+  # More info on Wiki.
+  # ========================================================
+  quests: # set the position of quests items
+    '1': 21
+    '2': 23
+    '3': 25
+  items:
+    information:
+      type: PLAYER_COMMAND
+      item:
+        material: CUSTOM_HEAD
+        name: '&e&lINFORMATION'
+        texture: cdcdee6d06df234b8e603328b96c57f3a312e79aabfc3be72a8b421878ed68cf
+        lore:
+        - '&e&l| #75C2F6ғʀᴇsʜ ɴᴇᴡ ǫᴜᴇsᴛs ᴅᴀɪʟʏ,'
+        - '&e&l| #75C2F6ғɪɴɪsʜ ᴀʟʟ ᴏғ ᴛʜᴇᴍ ᴀɴᴅ ᴘᴏɪɴᴛs'
+        - '&e&l| #75C2F6ɢᴇᴛ ʀᴇᴡᴀʀᴅᴇᴅ #F4D160100 #75C2F6!'
+        slot: 1
+    close:
+      type: CLOSE
+      item:
+        material: CUSTOM_HEAD
+        name: '&c&lCLOSE'
+        texture: 5a6787ba32564e7c2f3a0ce64498ecbb23b89845e5a66b5cec7736f729ed37
+        lore:
+        - '&8Close the menu.'
+        slot: 41
+    easy1:
+      type: PLAYER_COMMAND
+      item:
+        name: '&eEasy Quest'
+        material: YELLOW_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 12
+    easy2:
+      type: PLAYER_COMMAND
+      item:
+        name: '&eEasy Quest'
+        material: YELLOW_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 30
+    medium1:
+      type: PLAYER_COMMAND
+      item:
+        name: '#90d8d8Medium Quest'
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 14
+    medium2:
+      type: PLAYER_COMMAND
+      item:
+        name: '#90d8d8Medium Quest'
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 32
+    hard1:
+      type: PLAYER_COMMAND
+      item:
+        name: '#f07818Hard Quest'
+        material: ORANGE_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 16
+    hard2:
+      type: PLAYER_COMMAND
+      item:
+        name: '#f07818Hard Quest'
+        material: ORANGE_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 34
+    fillers:
+      type: FILL
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        slot:
+        - 2
+        - 3
+        - 4
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 17
+        - 18
+        - 20
+        - 10
+        - 19
+        - 27
+        - 28
+        - 26
+        - 29
+        - 35
+        - 37
+        - 36
+        - 38
+        - 40
+        - 39
+        - 42
+        - 43
+        - 44
+        - 45

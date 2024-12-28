@@ -1,0 +1,21 @@
+location: spawn:0.507:105.000:8.490
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: BEACON'
+    height: 0.5
+  - content: '&9&lBITUP &8| &f&lWorld Border'
+    height: 0.8
+  - content: '&4&lʙᴜɪʟᴅ ᴡᴏʀʟᴅ &8| &f10,000 x 10,000'
+    height: 0.3
+  - content: '&c&lɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ &8| &f10,000 x 10,000'
+    height: 0.3
+  - content: '&9&lᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ &8| &f10,000 x 10,000'
+    height: 0.7
+  actions: {}
+always-face-player: true

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 202.9.40.209
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1734094785365
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734094915334
+  login: 1734091240674
+money: '20747.4551000000010612'
+last-account-name: Astrea0099
+lastlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: 444.6455588059444
+  y: 65.0
+  z: 721.901548693466
+  yaw: -163.051025390625
+  pitch: 61.65020751953125
+logoutlocation:
+  world: 311b6a0c-0b28-41a7-b586-7412966fa270
+  world-name: world
+  x: 444.51249998807907
+  y: -28.0
+  z: 723.6999999880791
+  yaw: 37.49969482421875
+  pitch: 30.599994659423828
+homes:
+  home:
+    world: 311b6a0c-0b28-41a7-b586-7412966fa270
+    world-name: world
+    x: 444.03898331776026
+    y: -28.0
+    z: 722.0624884764692
+    yaw: 28.650115966796875
+    pitch: 23.100017547607422

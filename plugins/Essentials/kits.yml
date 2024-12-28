@@ -1,0 +1,26 @@
+kits:
+  tools:
+    delay: 10
+    items:
+    - ironsword 1 sharpness:1
+    - ironshovel 1 efficiency:1
+    - ironpickaxe 1 efficiency:1 fortune:1
+    - ironaxe 1 efficiency:1
+    - ironhelmet 1 protection:1
+    - ironchestplate 1 protection:1
+    - ironleggings 1 protection:1
+    - ironboots 1 protection:1
+    - Cooked_Beef 16
+  vip:
+    delay: 1
+    items:
+    - rail 1
+    - andesite 9
+    - granite 2
+    - dragon_egg 1
+    - emerald 64
+    - sugar_cane 17
+    - netherite_boots 1
+    - netherite_leggings 1
+    - netherite_chestplate 1
+    - netherite_helmet 1

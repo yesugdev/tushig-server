@@ -1,0 +1,829 @@
+# =================================================================================================#
+#                                 Main Configuration of Chat Manager
+# =================================================================================================#
+#
+#    If you need any plugin support, feel free to join our discord server
+#    or private message me H1DD3NxN1NJA on Spigot.
+#
+#    Discord Link: https://discord.gg/mh7Ydaf
+#
+# =================================================================================================#
+#
+# Information:
+#   1. Color Codes are supported with the "&" character.
+#      - To view a list of COLOR CODES you can do /Colors in-game.
+#      - To view a list of FORMAT CODES you can do /Formats in-game.
+#
+#   2. HEX Codes are supported with the #000000 format.
+#   
+#   3. Sound List
+#      - 1.9 and newer: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+#      - 1.8 and older: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+#   
+#   4. All messages can be changed in the Messages.yml file.
+#
+#   5. Wiki: https://github.com/H1DD3NxN1NJA/ChatManager/wiki
+#
+# =================================================================================================#
+
+# =================================================================================================#
+# Block players from advertising other servers.
+# =================================================================================================#
+Anti_Advertising:
+  
+  Chat:
+    
+    # Block advertising in chat.
+    Enable: false
+    
+    # Should the anti advertising checker be more sensitive? This may cause false positives.
+    Increase_Sensitivity: false
+    
+    # Should staff get notified when a player advertises in chat?
+    Notify_Staff: true
+    
+    # Should a command be executed to the player that advertises?
+    Execute_Command: false
+    
+    # The command that is executed when a player advertises.
+    # Set this section to Executed_Command: '' to disable
+    Executed_Command: '' # kick {player} Please do not advertise in chat
+    
+    # Every time a player advertises in chat, their message will be logged in the Advertisements.txt file.
+    Log_Advertisers: true
+  
+  Commands:
+    
+    # Block advertising in commands.
+    Enable: true
+    
+    # Should the anti advertising checker be more sensitive? This may cause false positives.
+    Increase_Sensitivity: false
+    
+    # Should staff get notified when a player advertises in commands?
+    Notify_Staff: true
+    
+    # Should a command be executed to the player that advertises?
+    Execute_Command: false
+    
+    # The command that is executed when a player advertises.
+    # Set this section to Executed_Command: '' to disable
+    Executed_Command: '' # kick {player} Please do not advertise in chat
+    
+    # Every time a player advertises in commands, their message will be logged in the Advertisements.txt file.
+    Log_Advertisers: true
+    
+    # If a player executes one of these commands with an advertisement in it, the command will not be blocked.
+    Whitelist:
+    - /report
+  
+  Signs:
+    
+    # Block advertising on signs. 
+    Enable: true
+    
+    # Should the anti advertising checker be more sensitive? This may cause false positives.
+    Increase_Sensitivity: false
+    
+    # Should staff get notified when a player advertises on a sign?
+    Notify_Staff: true
+    
+    # Should a command be executed to the player that advertises?
+    Execute_Command: false
+    
+    # The command that is executed when a player advertises.
+    # Set this section to Executed_Command: '' to disable
+    Executed_Command: '' # kick {player} Please do not advertise in chat
+    
+    # Every time a player advertises on signs, their message will be logged in the Advertisements.txt file.
+    Log_Advertisers: true
+  
+  # Websites that wont be blocked if said in chat, commands, or signs.
+  Whitelist:
+  - google.com
+  - https://discord.gg/yournetwork
+  - discord.gg/yournetwork
+  - https://yournetwork.net
+  - www.https://yournetwork.net
+  - yournetwork.net
+  - store.yournetwork.net
+  - https://store.yournetwork.net
+  - www.https://store.yournetwork.net
+  - youtube.com/c/yournetwork
+  - https://youtube.com/c/yournetwork
+  - play.yournetwork.net
+
+# =================================================================================================#
+# Prevent players from executing commands, or typing in chat until they move when they join your server.
+# =================================================================================================#
+Anti_Bot:
+  
+  # Block players from typing in chat until they move.
+  Block_Chat_Until_Moved: false
+  
+  # Block players from executing commands until they move.
+  Block_Commands_Until_Moved: false
+
+# =================================================================================================#
+# Prevent messages written in CAPS.
+# =================================================================================================#
+Anti_Caps:
+  
+  Enable: true
+  
+  # Should players capitalize words in commands?
+  Enable_In_Commands: true
+  
+  # The minimum size the message has to be to get blocked.
+  Min_Message_Length: 5
+  
+  # The percentage the message has to be capitalized to get blocked.
+  Required_Percentage: 70
+
+# =================================================================================================#
+# Prevent the chat from being flooded with repetitive messages.
+# =================================================================================================#
+Anti_Spam:
+  
+  # Anti-spam section for chat.
+  Chat:
+    
+    # How many seconds does the player have to wait till they send their next message?
+    # Set to 0 to disable.
+    Chat_Delay: 1
+    
+    # Prevent players from repeating the same messages.
+    Block_Repetitive_Messages: false
+  
+  # Anti-spam section for commands.
+  Command:
+    
+    # How many seconds does the player have to wait till they send their next command?
+    # Set to 0 to disable.
+    Command_Delay: 0
+    
+    # Prevent players from repeating the same commands.
+    Block_Repetitive_Commands: false
+    
+    # Whitelisted commands that won't be effected by the anti spam.
+    Whitelist:
+    - /msg
+    - /r
+    - /motd
+    - /help
+    - /guide
+    - /menu
+    - /ah
+    - /playerwarp
+    - /pwarp
+
+# =================================================================================================#
+# Prevent players from swearing in chat, comamnds, and signs.
+# =================================================================================================#
+Anti_Swear:
+  
+  Chat:
+    
+    # Block swearing in chat
+    Enable: true
+    
+    # Should the anti-swear checker be more sensitive? This may cause false positives.
+    Increase_Sensitivity: false
+    
+    # Should chat manager block the message from being sent in chat?
+    Block_Message: true
+    
+    # Should staff get notified when a player swears in chat?
+    Notify_Staff: true
+    
+    # Should a command be executed when a player swears in chat?
+    Execute_Command: false
+    
+    # The command that is executed when a player swears in chat.
+    # Set this section to Executed_Command: '' to disable.
+    Executed_Command: '' # kick {player} Please do not swear in chat
+    
+    # Every time a player swears in chat their message will be logged in the Swears.txt file.
+    Log_Swearing: true
+  
+  Commands:
+    
+    # Block swearing in commands.
+    Enable: true
+    
+    # Should the anti-swear checker be more sensitive? This may cause false positives.
+    Increase_Sensitivity: false
+    
+    # Should chat manager block the command from being sent?
+    Block_Command: true
+    
+    # If a player executes one of these commands with a swear word in it, the command will not be blocked.
+    Whitelisted_Commands:
+    - /report
+    - /login
+    - /register
+    
+    # Should staff get notified when a player swears in commands?
+    Notify_Staff: true
+    
+    # Should a command be executed when a player swears in commands?
+    Execute_Command: false
+    
+    # The command that is executed when a player swears in commands.
+    # Set this section to Executed_Command: '' to disable.
+    Executed_Command: '' # kick {player} Please do not swear in commands
+    
+    # Every time a player swears in commands their message will be logged in the Swears.txt file.
+    Log_Swearing: true
+  
+  Signs:
+    
+    # Block swearing on signs.
+    Enable: true
+    
+    # Should the anti-swear checker be more sensitive? This may cause false positives.
+    Increase_Sensitivity: false
+    
+    # Should chat manager block the message from being added to the sign?
+    Block_Sign: true
+    
+    # Should staff get notified when a player swears on signs?
+    Notify_Staff: true
+    
+    # Should a command be executed when a player swears on signs?
+    Execute_Command: false
+    
+    # The command that is executed when a player swears on signs.
+    # Set this section to Executed_Command: '' to disable
+    Executed_Command: '' # kick {player} Please do not swear on signs
+    
+    # Every time a player swears on signs their message will be logged in the Swears.txt file.
+    Log_Swearing: true
+
+# =================================================================================================#
+# Prevent players from using special chat characters.
+# =================================================================================================#
+Anti_Unicode:
+  
+  # Block special characters in chat.
+  Enable: false
+  
+  # Should staff get notified when a player uses special characters?
+  Notify_Staff: true
+  
+  # Should a command be executed when a player uses special characters?
+  Execute_Command: false
+  
+  # The command that is executed when a player uses special characters in chat.
+  # Set this section to Executed_Command: '' to disable
+  Executed_Command: '' # kick {player} Please do not use special characters in chat.
+  
+  # Anything thats in this list won’t be blocked by the anti unicode checker.
+  Whitelist:
+  - «
+  - »
+  - <3
+  - ©
+  - '%'
+  - $
+  - '#'
+  - '@'
+  - _
+  - '-'
+  - +
+  - (
+  - )
+  - '*'
+  - ':'
+  - ;
+  - '!'
+  - '?'
+  - '~'
+  - '`'
+  - '|'
+  - •
+  - ♦
+  - ♥
+  - ♪
+  - ♠
+  - ♣
+  - √
+  - Π
+  - Ω
+  - μ
+  - π
+  - ÷
+  - ×
+  - ¶
+  - ∆
+  - £
+  - ¢
+  - €
+  - ¥
+  - ™
+  - ✓
+  - '{'
+  - '}'
+  - ⛃
+  - ☠
+  - ✧
+  - ✔
+  - ✘
+
+# =================================================================================================#
+# Prevent players from using certain commands.
+# =================================================================================================#
+Banned_Commands:
+  
+  Enable: false
+  
+  # Increase banned commands sensitivity so if you add the command /gamemode, 
+  # players wont be able to do /gamemode creative, /gamemode survival, etc.
+  Increase_Sensitivity: false
+  
+  # Should staff get notified when a player uses a banned command?
+  Notify_Staff: true
+  
+  # Should a command be executed to the player that uses a banned command?
+  Execute_Command: false
+  
+  # The command that is executed when a player executed a banned command.
+  # Set this section to Executed_Command: '' to disable
+  Executed_Command: '' # kick {player} You are not allowed to use that command!
+
+# =================================================================================================#
+# Broadcasting Commands
+# =================================================================================================#
+Broadcast_Commands:
+  
+  Command:
+    
+    # Broadcast Command
+    Broadcast:
+      
+      # The default prefix that goes infront of the broadcasted message.
+      Prefix: '#00ffff&lANNOUNCEMENT! '
+      
+      # The default color the broadcasted message will be.
+      Default_Color: '&7'
+      sound:
+        toggle: true
+        value: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE
+        pitch: 1.0
+        volume: 1.0
+    
+    # Announcement Command
+    Announcement:
+      
+      # The message that will be sent to everyone on the server.
+      Message:
+      - ' &r &r '
+      - '&c&lANNOUNCEMENT!'
+      - '#ffffff{message}'
+      - ' &r &r '
+      sound:
+        toggle: true
+        value: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE
+        pitch: 1.0
+        volume: 1.0
+    
+    # Warning Command
+    Warning:
+      
+      # The message that will be sent to everyone on the server.
+      Message:
+      - ' &r &r '
+      - '&c⚠ &lWARNING! &c⚠'
+      - '#ffffff{message}'
+      - ' &r &r '
+      sound:
+        toggle: true
+        value: BLOCK_NOTE_BLOCK_GUITAR
+        pitch: 1.0
+        volume: 1.0
+
+# =================================================================================================#
+# Per-Group chat formats. REQUIRES VAULT TO WORK!!!!!
+# How to use chat format: https://github.com/H1DD3NxN1NJA/ChatManager/wiki/Chat-Format
+# Available Placeholders: https://github.com/H1DD3NxN1NJA/ChatManager/wiki/Chat-Format#placeholders-top
+# =================================================================================================#
+Chat_Format:
+  
+  Enable: false
+  Default_Format: '%alonsotags_tag_chat%&7ᴘʟᴀʏᴇʀ %essentials_nickname% &8&l» &7{message}'
+# =================================================================================================#     
+# Players can only send messages to other players that are in range.
+# How to use chat radius: https://github.com/H1DD3NxN1NJA/ChatManager/wiki/Chat-Radius
+# =================================================================================================#
+Chat_Radius:
+  
+  Enable: false
+  
+  # When players join the server, or if the plugin is hard reloaded (with plugman) players will be
+  # automatically put into this chat channel.
+  # Chat Channels: Local, Global, World.
+  Default_Channel: Local
+  
+  Local_Chat:
+    
+    # The prefix thats sent in local chat.
+    Prefix: '&7[&cLocal&7]'
+    
+    # If you put this symbol in front of your message, it will override any channel which you are in, 
+    # sending the message to all players in the server, then keeps you in local chat.
+    # Do Override_Symbol: '' to disable.
+    Override_Symbol: '#'
+  
+  Global_Chat:
+    
+    # The prefix thats sent in global chat.
+    Prefix: '&7[&cGlobal&7]'
+    
+    # If you put this symbol in front of your message, it will override any channel which you are in, 
+    # sending the message to all players in the server, then keeps you in global chat.
+    # Do Override_Symbol: '' to disable.
+    Override_Symbol: '!'
+  
+  World_Chat:
+    
+    # The prefix thats sent in world chat.
+    Prefix: '&7[&dWorld&7]'
+    
+    # If you put this symbol in front of your message, it will override any channel which you are in, 
+    # sending the message to all players in the server, then keeps you in world chat.
+    # Do Override_Symbol: '' to disable.
+    Override_Symbol: $
+  
+  # The maximum distance players will receive the senders messages.
+  Block_Distance: 250
+  
+  # Enable chat radius spy on join.
+  Enable_Spy_On_Join: false
+
+# =================================================================================================#
+# Clear Chat
+# =================================================================================================#
+Clear_Chat:
+  
+  # Clear players chat when they join the server.
+  Clear_On_Join: false
+  
+  # How many blank lines should be broadcasted in chat?
+  Broadcasted_Lines: 300
+
+# =================================================================================================#
+# Command Spy
+# =================================================================================================#
+Command_Spy:
+  
+  # Turn on command spy when players with the correct permission join the server.
+  Enable_On_Join: false
+  
+  # Commands that wont be shown in command spy.
+  Blacklist_Commands:
+  - /login
+  - /register
+
+# =================================================================================================#
+# Formatted Messages - BETA!
+# This section allows you to enable or disable the use of color codes and format codes in chat.
+# Each color code and format is permission based.
+# To give players permission to use color codes give them 
+# chatmanager.color.all or chatmanager.color.{code} without the &. Example: chatmanager.color.a
+# To give players permission to use format codes give them 
+# chatmanager.format.all or chatmanager.format.{code} without the &. Example: chatmanager.color.f
+# =================================================================================================#
+Formatted_Messages:
+  
+  Enable: true
+
+# =================================================================================================#
+# Correct player's grammar.
+# =================================================================================================#
+Grammar:
+  
+  Enable: true
+  
+  # The minimum size the players message has to be for grammar to work.
+  Min_Message_Length: 5
+  
+  # Correct words from "i" to "I", "dont" to "don't", and many more pre-set words!
+  Autocorrect:
+    
+    Enable: true
+
+# =================================================================================================#
+# Staff and Player List:
+# =================================================================================================#
+Lists:
+  
+  Staff_List:
+  - '&7&m---------------&8[ &cStaff List &8]&7&m---------------'
+  - '&7Online Staff Members&7: {staff}'
+  
+  Player_List:
+  - '&7&m---------------&8[ &cPlayer List &8]&7&m---------------'
+  - '&7Online Players &c{server_online}&8/&c{server_max_players}&7: {players}'
+
+# =================================================================================================#
+# Logs
+# =================================================================================================#
+Logs:
+  
+  # Should every message in chat be logged in the Chat.txt file?
+  Log_Chat: true
+  
+  # Should every command that is executed be logged in the Commands.txt file?
+  Log_Commands: true
+  
+  # Should every message placed on a sign be logged in the Signs.txt file?
+  Log_Signs: true
+  
+  # Commands that wont be logged in the Command.txt file.
+  # Commands in the Blacklist_Commands list must be lowercase.
+  Blacklist_Commands:
+  - /login
+  - /register
+
+# =================================================================================================#
+# First Join, Join, and Quit Text, Actionbar, and Title Messages.
+# Group messages allows you to set per group join and quit messages.
+# To use them add the group and give that group the permission, its CASE SENSITIVE...
+# Chatmanager.join.{group name}
+# Chatmanager.quit.{group name}
+# =================================================================================================#
+Messages:
+  
+  First_Join:
+    
+    Welcome_Message:
+      
+      Enable: false
+      
+      First_Join_Message: ''
+      sound:
+        toggle: true
+        value: ENTITY_EXPERIENCE_ORB_PICKUP
+        pitch: 1.0
+        volume: 1.0
+    
+    Actionbar_Message:
+      
+      Enable: false
+      
+      First_Join_Message:  '&6&l7-Р АНГИЙН НАЙЗУУД SERVER'{vault_prefix}{player}&c!'
+    
+    Title_Message:
+      
+      Enable: false
+      
+      # The time it takes for the title to fade into the screen.
+      Fade_In: 40
+      
+      # The time it takes for the title to stay on the screen.
+      Stay: 20
+      
+      # The time it takes for the title to fade out of the screen.
+      Fade_Out: 40
+      
+      First_Join_Message:
+        
+        Header: '#ffff00★ #ffff00&l&nWELCOME#FFFF00 ★'
+        
+        Footer: '#ffbb00Enjoy the wild world!'
+  
+  Join_Messages:
+    
+    Enable: false
+    
+    Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    
+    # Players that don't have a permission set for group messages
+    # will send this join message.
+    Default_Message: ''
+    Group_Messages:
+      # To use them add the group and give that group the permission, its CASE SENSITIVE...
+      # Chatmanager.join.{group name}
+      # Format: {group name}: {message}
+      Default: ''
+      Donator: ''
+      Staff: ''
+    Actionbar_Messages:
+      Enable: false
+      Default_Message: '&cWelcome back to &c{server_name} {vault_prefix}{player}&c!'
+      Group_Messages:
+        Default: '&cWelcome back to &c{server_name} {vault_prefix}{player}&c!'
+        Donator: '&cWelcome back to &c{server_name} {vault_prefix}{player}&c!'
+        Staff: '&cWelcome back to &c{server_name} {vault_prefix}{player}&c!'
+    Title_Messages:
+      Enable: true
+      Fade_In: 40
+      Stay: 20
+      Fade_Out: 40
+      Default_Message:
+        Header: '&c❤ &c&l&nWELCOME BACK!&c ❤'
+        Footer: '#ff9999Enjoy playing {player}!'
+      Group_Messages:
+        Default:
+          Header: '&c❤ &c&l&nWELCOME BACK!&c ❤'
+          Footer: '#ff9999Enjoy playing {player}!'
+        Donator:
+          Header: '&cWelcome Back'
+          Footer: '&c{player} to {server_name}'
+        Staff:
+          Header: '&cWelcome Back'
+          Footer: '&c{player} to {server_name}'
+  
+  Quit_Messages:
+    Enable: false
+    Sound: ''
+    Default_Message: '&c{player} &cleft the server'
+    # To use them add the group and give that group the permission, its CASE SENSITIVE...
+    # Chatmanager.quit.{group name}
+    Group_Messages:
+      Default: ''
+      Donator: ''
+      Staff: ''
+
+# =================================================================================================#
+# When a player mentions another players name.
+# =================================================================================================#
+Mentions:
+  
+  Enable: true
+  
+  # The symbol players have to use to tag other players, Leave it blank for nothing.
+  Tag_Symbol: '@'
+  
+  # The color the players name will be highlighted as when mentioned in chat.
+  # To disable make it Mention_Color: ""
+  Mention_Color: '#FFFF00'
+  
+  # The title message thats sent to the player thats mentioned.
+  Title:
+    Enable: true
+    Header: '#FFFF00@ &lMENTIONED #FFFF00@'
+    Footer: '#E6E6E6You got mentioned by {player}!'
+  sound:
+    toggle: true
+    value: BLOCK_NOTE_BLOCK_PLING
+    pitch: 1.0
+    volume: 1.0
+
+# =================================================================================================#
+# When players join your server, welcome them with a Message of the Day.
+# =================================================================================================#
+MOTD:
+  
+  Enable: true
+  
+  # How long to wait before displaying after login in seconds?
+  Delay: 1
+  
+ Message:
+  - '&c&m                                                                                 &r'
+  - ''
+  - '                           &6&l7-Р АНГИЙН НАЙЗУУД SERVER'
+  - '               &7&o(Lets Craft our World!)'
+  - ''
+  - ' &9[&lᴅɪꜱᴄᴏʀᴅ&9]&8: &9&nᴅɪꜱᴄᴏʀᴅ.ɢɢ/BITUP'
+  - ''
+  - '&c&m                                                                                 &r'
+
+# =================================================================================================#
+# Mute Chat.
+# =================================================================================================#
+Mute_Chat:
+  
+  Disable_Commands: true
+  
+  # Commands that cannot be executed when chat is muted 
+  # if the boolean "Disable_Commands" is set to true.
+  Disabled_Commands:
+  - /message
+  - /msg
+  - /m
+  - /tell
+  - /t
+  - /whisper
+  - /w
+  - /me
+  - /reply
+  - /r
+
+# =================================================================================================#
+# Players can only talk to other players that are in the same world as them!
+# Group worlds allows you to allow specific worlds to share the same chat.
+# If a world isn't listed in the group worlds players can only talk to each other in that world.
+# World names are CASE SENSITIVE. Please spell it correctly for it to work.
+# If group worlds are disabled and per world chat is enabled players can only talk to each other in
+# the world they are located in.
+# =================================================================================================#
+Per_World_Chat:
+  
+  Enable: false
+  
+  Group_Worlds:
+    
+    Enable: false
+    
+    Worlds:
+      '1':
+      - world
+      - world_nether
+      - world_the_end
+      '2':
+      - Test1
+      - Test2
+      - Test3
+
+# =================================================================================================#
+# Private messages allow you to secretly message another player without everyone else seeing.
+# =================================================================================================#
+Private_Messages:
+  
+  Sender:
+    Format: '&8[ &cYou #D3D3D3➟ &f{receiver} &8] &f'
+    Tooltip:
+    - '&cClick &7to reply.'
+    Click_Command: '/r '
+  
+  Receiver:
+    Format: '&8[ &f%essentials_nickname% #D3D3D3➟ &cYou &8] &f'
+    Tooltip:
+    - '&cClick &7to reply.'
+    Click_Command: '/r '
+  
+  # The sound thats played to the receiver
+  # Do Sound: '' to disable
+  Sound: BLOCK_COMPARATOR_CLICK
+  
+  # This will enable or disable the tooltip and click command feature.
+  # If disabled it will only send the format message.
+  Enable_JSON: true
+  sound:
+    toggle: true
+    value: BLOCK_COMPARATOR_CLICK
+    pitch: 1.0
+    volume: 1.0
+
+# =================================================================================================#
+# The server name used in {server_name} variable.
+# =================================================================================================#
+Server_Name: YourNetwork
+
+# =================================================================================================#
+# Server Rules. You can add as many rules as you want.
+# =================================================================================================#
+Server_Rules:
+  
+  Rules:
+    
+    '1':
+    - '&7&m----------&8[ &cServer Rules Page 1/3 &8]&7&m----------'
+    - '&cNo Hacking'
+    - '&cNo DDOS Threats'
+    - '&cBe Kind to all players and staff'
+    '2':
+    - '&7&m----------&8[ &cServer Rules Page 2/3 &8]&7&m----------'
+    - '&cNo swearing anywhere at anytime!'
+    - '&cDo NOT abusing caps!'
+    - '&cNo Advertising any other minecraft servers!'
+    '3':
+    - '&7&m----------&8[ &cServer Rules Page 3/3 &8]&7&m----------'
+    - '&cDo not use any special characters in chat.'
+    - '&cDo not ask for staff.'
+    - '&cDo not spam in chat.'
+
+# =================================================================================================#
+# Staff can see what players type in certain commands.
+# =================================================================================================#
+Social_Spy:
+  
+  # Turn on social spy when players with the correct permission join the server.
+  Enable_On_Join: true
+
+# =================================================================================================#
+# Talk silently with staff without everyone else on the server seeing.
+# =================================================================================================#
+Staff_Chat:
+  
+  Enable: true
+  
+  Format: '#0000FF[Staff] &f%essentials_nickname% &8&l» &f{message}'
+  
+  # A boss bar will appear when entering staff chat to show its enabled.
+  Boss_Bar:
+    
+    Enable: false
+    
+    Title: '&cStaff Chat'
+
+# =================================================================================================#
+# Checks if there is an available update for chat manager.
+# =================================================================================================#
+Update_Checker: true
+
+# =================================================================================================#
+# You are done with the config!
+# =================================================================================================#

@@ -1,0 +1,79 @@
+2024-08-04 22:46:15 jdbc[3]: exception
+com.craftaro.third_party.org.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+SELECT 1 FROM ultimateclaims_migrations [42102-200]
+2024-12-13 06:57:27 database: flush
+com.craftaro.third_party.org.h2.message.DbException: OutOfMemoryError
+	at com.craftaro.third_party.org.h2.message.DbException.<clinit>(DbException.java:64)
+	at com.craftaro.third_party.org.h2.message.TraceObject.<clinit>(TraceObject.java:108)
+	at com.craftaro.third_party.org.h2.Driver.connect(Driver.java:69)
+	at com.craftaro.third_party.com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.craftaro.third_party.com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.H2Connector.<init>(H2Connector.java:62)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.H2Connector.<init>(H2Connector.java:44)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.DataManager.load(DataManager.java:99)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.DataManager.<init>(DataManager.java:73)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.DataManager.<init>(DataManager.java:64)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.SongodaPlugin.initDatabase(SongodaPlugin.java:299)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.UltimateClaims.onDataLoad(UltimateClaims.java:207)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475)
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726)
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473)
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: OutOfMemoryError
+	at com.craftaro.third_party.org.h2.message.DbException.<clinit>(DbException.java:62)
+	... 24 more
+Caused by: java.lang.OutOfMemoryError
+	... 25 more
+2024-12-13 06:58:09 jdbc[229]: exception
+com.craftaro.third_party.org.h2.jdbc.JdbcSQLNonTransientConnectionException: (Message 90108 not found) [90108-200]
+	at com.craftaro.third_party.org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at com.craftaro.third_party.org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at com.craftaro.third_party.org.h2.message.DbException.get(DbException.java:194)
+	at com.craftaro.third_party.org.h2.engine.Database.throwLastBackgroundException(Database.java:2221)
+	at com.craftaro.third_party.org.h2.engine.Session.close(Session.java:945)
+	at com.craftaro.third_party.org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:453)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:143)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:451)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.craftaro.third_party.org.h2.message.DbException: OutOfMemoryError
+	at com.craftaro.third_party.org.h2.message.DbException.<clinit>(DbException.java:64)
+	at com.craftaro.third_party.org.h2.message.TraceObject.<clinit>(TraceObject.java:108)
+	at com.craftaro.third_party.org.h2.Driver.connect(Driver.java:69)
+	at com.craftaro.third_party.com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.craftaro.third_party.com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.craftaro.third_party.com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.H2Connector.<init>(H2Connector.java:62)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.H2Connector.<init>(H2Connector.java:44)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.DataManager.load(DataManager.java:99)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.DataManager.<init>(DataManager.java:73)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.database.DataManager.<init>(DataManager.java:64)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.core.SongodaPlugin.initDatabase(SongodaPlugin.java:299)
+	at UltimateClaims-2.3.0.jar//com.craftaro.ultimateclaims.UltimateClaims.onDataLoad(UltimateClaims.java:207)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86)
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475)
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726)
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473)
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
+	... 1 more
+Caused by: java.sql.SQLException: OutOfMemoryError
+	at com.craftaro.third_party.org.h2.message.DbException.<clinit>(DbException.java:62)
+	... 24 more
+Caused by: java.lang.OutOfMemoryError
+	... 25 more

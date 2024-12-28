@@ -1,0 +1,24 @@
+2024-12-13 10:58:43 [INFO]: Loading Overrides...
+2024-12-13 10:58:43 [INFO]: Loading World Types...
+2024-12-13 10:58:43 [INFO]: - World Type for 'world' set to 'NORMAL'
+2024-12-13 10:58:43 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2024-12-13 10:58:43 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2024-12-13 10:58:43 [INFO]: Loading Defaults...
+2024-12-13 10:58:43 [INFO]: Loading Custom Worlds...
+2024-12-13 10:58:43 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2024-12-13 10:58:43 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2024-12-13 10:58:43 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2024-12-13 11:00:13 [INFO]: Database QUEUE:Queue configured and loaded!
+2024-12-13 11:00:13 [INFO]: Database PLAYERS:Players configured and loaded!
+2024-12-13 11:00:13 [INFO]: Database COOLDOWN:world configured and loaded!
+2024-12-13 11:00:13 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2024-12-13 11:00:13 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2024-12-13 11:00:13 [INFO]: Database COOLDOWN:spawn configured and loaded!
+2024-12-13 11:00:13 [INFO]: Database COOLDOWN:Arena configured and loaded!
+2024-12-13 11:00:13 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2024-12-13 11:00:25 [INFO]: Attempting to queue up some more safe locations...
+2024-12-13 11:00:30 [INFO]: Queueing paused, max queue limit reached!
+2024-12-13 12:11:07 [INFO]: CONSOLE executed: /betterrtp player Astrea0099 world
+2024-12-13 12:11:12 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-287.5,y=63.0,z=-253.5,pitch=35.099983,yaw=-62.412544}
+2024-12-13 13:00:00 [INFO]: CONSOLE executed: /betterrtp player Justin0321 world
+2024-12-13 13:00:05 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-75.5,y=67.0,z=-384.5,pitch=15.750053,yaw=26.36966}

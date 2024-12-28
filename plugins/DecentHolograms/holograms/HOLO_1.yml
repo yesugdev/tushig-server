@@ -1,0 +1,30 @@
+location: spawn:-32.757:103.000:-30.441
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: IRON_PICKAXE!ENCHANTED'
+    height: 0.6
+  - content: '&c&lJobs'
+    height: 0.6
+  - content: Gets more income by joining the jobs
+    height: 0.3
+  - content: and do some tasks and more fun activities!
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#ICON: NAME_TAG!ENCHANTED'
+    height: 0.6
+  - content: '&c&lRanks'
+    height: 0.6
+  - content: You can support our communities by
+    height: 0.3
+  - content: donating and purchasing our ranks
+    height: 0.3
+  - content: to unlock more fun cosmo & perks!
+    height: 0.3
+  actions: {}
